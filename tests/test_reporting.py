@@ -15,93 +15,101 @@ def test_call_details(driver):
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.CALL_DETAILS_TAB)
-    time.sleep(5)
-    r.is_call_details_tab_data_present()
+    #time.sleep(5)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_campaign_table(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.CAMPAIGN_TAB)
-    time.sleep(5)
-    r.element_displayed(r.DATA)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_publisher_table(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date("last month")
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.PUBLISHER_TAB)
-    time.sleep(5)
-    r.element_displayed(r.DATA)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_advertiser_table(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.ADVERTISER_TAB)
-    time.sleep(5)
-    r.element_displayed(r.DATA)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_destination_table(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.DESTINATION_TAB)
-    time.sleep(5)
-    r.element_displayed(r.DATA)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_caller_id_table(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.CALLER_ID_TAB)
-    time.sleep(5)
-    r.element_displayed(r.DATA)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_dialled_no_table(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
     r.do_click(r.DIALLED_NO_TAB)
-    time.sleep(5)
-    r.element_displayed(r.DATA)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
 
 def test_data_in_call_volume_trend_chart(driver):
     lp = LoginPage(driver)
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
     try:
@@ -123,9 +131,9 @@ def test_call_status_overview_chart(driver):
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
     try:
@@ -148,9 +156,9 @@ def test_compare_values_trend_chart_and_overview_chart(driver):
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
     try:
@@ -176,9 +184,9 @@ def test_compare_values_trend_chart_and_dropped_calls_chart(driver):
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
     try:
@@ -206,7 +214,7 @@ def test_total_calls(driver):
     db = DashBoard(driver)
     db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
     assert r.element_displayed(r.TOTAL_CALLS)
@@ -221,11 +229,12 @@ def test_gross_profit(driver):
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
+    assert r.element_displayed(r.GROSS_PROFIT)
     act_gross_profit = float(r.get_element_text(r.GROSS_PROFIT).replace("$", ""))
     exp_gross_profit = float(r.get_element_text(r.REVENUE).replace("$", "")) - float(r.get_element_text(r.PAYOUT).replace("$", ""))
     assert act_gross_profit == exp_gross_profit
@@ -235,11 +244,12 @@ def test_net_profit(driver):
     r = Reporting(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
     db = DashBoard(driver)
-    db.element_displayed(db.DASHBOARD_TEXT)
+    assert db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
+    assert r.element_displayed(r.NET_PROFIT)
     act_net_profit = float(r.get_element_text(r.NET_PROFIT).replace("$", ""))
     exp_net_profit = float(r.get_element_text(r.REVENUE).replace("$", "")) - float(r.get_element_text(r.EXPENSE).replace("$", ""))
     assert act_net_profit == exp_net_profit, f"Expected net profit: {exp_net_profit}, but got {act_net_profit}"
@@ -258,15 +268,16 @@ def test_reporting_export_this_page(driver_with_downloads):
     db = DashBoard(driver)
     db.element_displayed(db.DASHBOARD_TEXT)
     db.click_reporting_ele()
-    r.set_date()
+    r.set_date(Constant.DATE_RANGE)
     time.sleep(2)
     r.do_click(r.REFRESH_BUTTON)
     time.sleep(3)
     r.scroll_to_element(r.CALL_DETAILS_TAB)
-    r.wait_for_table_to_load(r.FIRST_CELL)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
     r.select_table_dropdown("100")
-    r.wait_for_table_to_load(r.FIRST_CELL)
-    r.scroll_to_element(r.TOTAL_CALLS)
+    time.sleep(3)
+    assert isinstance(r.is_table_data_present(), str),"Table data not present"
+    r.scroll_to_element(r.REVENUE)
     r.do_click(r.EXPORT_BUTTON)
     r.do_click(r.EXPORT_SUB_BUTTON)
     time.sleep(2)
@@ -291,6 +302,48 @@ def test_reporting_export_this_page(driver_with_downloads):
     # compare
     pd.testing.assert_frame_equal(csv_data, ui_csv, check_dtype=False)
 
+def test_reporting_export_all_data(driver_with_downloads):
+    driver = driver_with_downloads
+    lp = LoginPage(driver)
+    r = Reporting(driver)
+    lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    db = DashBoard(driver)
+    db.element_displayed(db.DASHBOARD_TEXT)
+    db.click_reporting_ele()
+    r.set_date(Constant.DATE_RANGE)
+    time.sleep(2)
+    r.do_click(r.REFRESH_BUTTON)
+    time.sleep(3)
+    r.scroll_to_element(r.CALL_DETAILS_TAB)
+    assert isinstance(r.is_table_data_present(), str), "Table data not present"
+    r.select_table_dropdown("100")
+    assert isinstance(r.is_table_data_present(), str), "Table data not present"
+    r.scroll_to_element(r.REVENUE)
+    r.do_click(r.EXPORT_BUTTON)
+    r.do_click(r.EXPORT_ALL_ROWS)
+    r.do_click(r.EXPORT_SUB_BUTTON_ALL_DATA)
+    time.sleep(15)
+    files = [f for f in os.listdir(driver.download_dir) if f.endswith(".csv")]
+    assert files, "No CSV file found!"
+    csv_file_path = os.path.join(driver.download_dir, files[0])
+    # read downloaded csv
+    csv_data = pd.read_csv(csv_file_path, sep=",", engine="python")
+    # get UI dataframe
+    r.scroll_to_element(r.TABLE_NEXT_BUTTON)
+    ui_df = r.get_all_pages_as_dataframe()
+    # save UI data for debugging/reference
+    ui_df.to_csv("ui_all_data.csv", index=False)
+    ui_csv = pd.read_csv("ui_all_data.csv")
+    # Strip column names
+    csv_data.columns = [col.strip() for col in csv_data.columns]
+    ui_csv.columns = [col.strip() for col in ui_csv.columns]
+    # csv_data = csv_data[ui_df.columns]
+    csv_data = csv_data.astype(str)
+    ui_csv = ui_csv.astype(str)
+    csv_data = csv_data.applymap(normalize_value)
+    ui_csv = ui_csv.applymap(normalize_value)
+    # compare
+    pd.testing.assert_frame_equal(csv_data, ui_csv, check_dtype=False)
 
 def test_reporting_get_apis():
     token = base_page.generate_token()

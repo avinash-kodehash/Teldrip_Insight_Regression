@@ -55,19 +55,49 @@ class Reporting(BasePage):
     EXPENSE = (By.CSS_SELECTOR,"div[class='flex items-start gap-3 sm:px-6 py-4 sm:py-8 xl:py-0 undefined'] h3[class='text-2xl font-bold']")
     NET_PROFIT = (By.CSS_SELECTOR,"div[class='flex items-start gap-3 sm:px-6 py-4 sm:py-8 xl:py-0 lg:!px-0 '] h3[class='text-2xl font-bold']")
     EXPORT_BUTTON = (By.XPATH, "//button[normalize-space()='Export']")
-    EXPORT_ALL_ROWS = ()
+    EXPORT_ALL_ROWS = (By.XPATH,"(//div[contains(@class,'size-6 min-w-6 rounded-full border-2 flex items-center justify-center transition-colors border-gray-400')])[1]")
     EXPORT_THIS_PAGE = (By.XPATH, "(//div[contains(@class,'size-6 min-w-6 rounded-full border-2 flex items-center justify-center transition-colors border-brand-500')])[1]")
     EXPORT_SUB_BUTTON = (By.XPATH, "(//div[@class='px-4 py-4 text-base rounded-lg content-primary ibf-bg-white-to-brand text-center '])[1]")
+    EXPORT_SUB_BUTTON_ALL_DATA = (By.XPATH,"(//button[@class='px-4 py-4 text-base rounded-lg content-primary ibf-bg-white-to-brand text-center '])[1]")
     TABLE = (By.XPATH, "//div[@class='overflow-x-auto max-w-full']")
     TABLE_DROP_DOWN = (By.XPATH, "//select")
-    FIRST_CELL = (By.XPATH, "//tr[1]//td[2]")
+    FIRST_CELL = (By.XPATH, "//tr[1]//td[4]")
+    TABLE_NEXT_BUTTON = (By.XPATH, "//div[@id='insights']//button[@class='p-2 rounded disabled:opacity-50 inline-flex items-center justify-center h-6 w-8 hover:bg-brand-500 hover:text-white'][2]")
 
-    def is_call_details_tab_data_present(self):
-        return self.element_displayed(self.CALL_DETAILS_DATA)
+    def is_table_data_present(self):
+        self.wait_for_non_empty_text(self.FIRST_CELL)
+        return self.driver.find_element(*self.FIRST_CELL).text
 
-    def set_date(self):
-        self.do_click(self.DATE_RANGE)
-        self.do_click(self.DATE_LAST_MONTH)
+    def set_date(self, date_range):
+        if date_range=="last month":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_LAST_MONTH)
+        elif date_range=="this month":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_THIS_MONTH)
+        elif date_range=="last year":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_LAST_YEAR)
+        elif date_range=="this year":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_THIS_YEAR)
+        elif date_range=="last 7 days":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_LAST_7_DAYS)
+        elif date_range=="today":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_TODAY)
+        elif date_range=="yesterday":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_YESTERDAY)
+        elif date_range=="last week":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_LAST_WEEK)
+        elif date_range=="this week":
+            self.do_click(self.DATE_RANGE)
+            self.do_click(self.DATE_THIS_WEEK)
+        else:
+            raise ValueError("Invalid date range option, please select a valid option")
 
     def get_call_values_as_list(self, calls_locators):
         for call in calls_locators:
@@ -76,6 +106,9 @@ class Reporting(BasePage):
 
     def get_table_as_dataframe(self):
         return self.extract_table_as_dataframe(self.TABLE, exclude_last_n=2)
+
+    def get_all_pages_as_dataframe(self):
+        return self.extract_all_pages_as_dataframe(self.TABLE, self.TABLE_NEXT_BUTTON, exclude_last_n=2)
 
     def select_table_dropdown(self, value):
         #self.scroll_to_element(self.TABLE_DROP_DOWN)

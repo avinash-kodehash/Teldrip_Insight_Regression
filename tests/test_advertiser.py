@@ -12,5 +12,5 @@ def test_visibility_of_advertiser_table(driver):
     db.click_advertiser_ele()
     db.do_click(db.ADVERTISER_PAGE_TAB)
     a = Advertiser(driver)
-    time.sleep(4)
-    assert a.is_advertiser_table_visible()
+    #time.sleep(4)
+    assert isinstance(a.is_table_data_present(), str),"Table data not present"

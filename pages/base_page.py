@@ -1,8 +1,10 @@
 import requests
+from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
+import time
 
 class BasePage:
     def __init__(self,driver):
@@ -53,6 +55,7 @@ class BasePage:
         data = []
         for row in rows:
             cols = row.find_elements(By.TAG_NAME, "td")
+            #time.sleep(5)
             row_data = [c.text.strip() for c in cols]
             if exclude_last_n > 0:
                 row_data = row_data[:-exclude_last_n]
@@ -65,8 +68,57 @@ class BasePage:
             df = df.drop(columns=['S.no'])
         return df
 
+
+    def extract_all_pages_as_dataframe(self, table_locator, next_button_locator,
+                                       exclude_last_n=0, drop_sno=True, normalize_spaces=True,
+                                       wait_after_click=10):
+        """
+        Extracts all paginated table data into one DataFrame.
+        """
+
+        all_dfs = []
+        page_count = 0
+
+        while True:
+            # Extract current page
+            df_page = self.extract_table_as_dataframe(
+                table_locator,
+                exclude_last_n=exclude_last_n,
+                drop_sno=drop_sno,
+                normalize_spaces=normalize_spaces
+            )
+            all_dfs.append(df_page)
+            page_count += 1
+            try:
+                next_button = self.driver.find_element(*next_button_locator)
+
+                disabled_attr = next_button.get_attribute("disabled")
+                if disabled_attr is not None or not next_button.is_enabled():
+                    break
+
+                self.do_click(next_button_locator)
+                time.sleep(wait_after_click)
+
+            except Exception:
+                # If no next button or can't click, stop
+                break
+
+        if all_dfs:
+            return pd.concat(all_dfs, ignore_index=True)
+        else:
+            return pd.DataFrame()
+
     def wait_for_table_to_load(self,locator):
-        assert isinstance(self.get_element_text(locator).strip(), str)
+        #assert isinstance(self.get_element_text(locator).strip(), str)
+        return self.get_element_text(locator)
+
+    def wait_for_non_empty_text(self, locator, timeout=15):
+        try:
+            return WebDriverWait(self.driver, timeout).until(
+                lambda d: d.find_element(*locator).text.strip() != ""
+        )
+        except TimeoutException:
+            raise AssertionError
 
 def generate_token():
     body = {"email":"meghna.c@kodehash.com","password":"#120Test#"}

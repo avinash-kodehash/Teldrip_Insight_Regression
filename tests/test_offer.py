@@ -12,5 +12,4 @@ def test_offer_table_visibility(driver):
     db.click_advertiser_ele()
     db.do_click(db.OFFER_TAB)
     o = Offer(driver)
-    time.sleep(4)
-    assert o.is_offer_table_visible()
+    assert isinstance(o.is_table_data_present(), str),"Table data not present"

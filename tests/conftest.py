@@ -21,18 +21,23 @@ def driver_with_downloads():
     if os.path.exists(download_dir):
         shutil.rmtree(download_dir)
     os.makedirs(download_dir)
-
     options = webdriver.ChromeOptions()
-    prefs = {"download.default_directory": download_dir}
+    prefs = {
+        "download.default_directory": download_dir,
+        "download.prompt_for_download": False,
+        "download.directory_upgrade": True,
+        "safebrowsing.enabled": True
+    }
     options.add_experimental_option("prefs", prefs)
 
     driver = webdriver.Chrome(options=options)
     driver.get(Constant.BASE_URL)
     driver.maximize_window()
-
     driver.download_dir = download_dir
-    yield driver
+    yield driver  # hand control to test
     driver.quit()
+    if os.path.exists(download_dir):
+        shutil.rmtree(download_dir)
 
 # @pytest.hookimpl(tryfirst=True)
 # def pytest_sessionfinish(session, exitstatus):
