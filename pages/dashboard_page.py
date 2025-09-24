@@ -10,7 +10,7 @@ class DashBoard(BasePage):
     ADVERTISER_TAB = (By.XPATH,"(//*[name()='svg'])[6]")
     ADVERTISER_PAGE_TAB = (By.XPATH, "(//div[contains(@class,'MuiListItemText-root css-1tsvksn')])[7]")
     ADVERTISER_TABLE = (By.CSS_SELECTOR,".text-sm.text-primary-500")
-    OFFER_TAB = (By.XPATH, "(//*[name()='svg'])[6]")
+    OFFER_TAB = (By.XPATH, "(//*[name()='svg'])[5]")
     USER_TAB = (By.XPATH, "(//*[name()='svg'])[8]")
     FIRST_CELL = (By.XPATH, "//tr[1]//td[2]")
 
@@ -26,5 +26,9 @@ class DashBoard(BasePage):
     def is_table_data_present(self):
         self.wait_for_non_empty_text(self.FIRST_CELL)
         return self.driver.find_element(*self.FIRST_CELL).text
+
+    def click_offer_ele(self):
+        self.do_click(self.OFFER_TAB)
+
 
 

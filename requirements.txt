@@ -1,0 +1,6 @@
+selenium
+requests
+pytest
+pandas
+pytest-xdist
+pytest-order

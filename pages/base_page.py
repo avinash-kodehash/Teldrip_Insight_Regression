@@ -120,6 +120,16 @@ class BasePage:
         except TimeoutException:
             raise AssertionError
 
+    def get_elements_text_as_list(self, locator_string):
+        elements = self.driver.find_elements(By.XPATH, locator_string)
+        return [el.text.strip() for el in elements]
+
+    def get_elements_as_list(self, locator):
+        return self.driver.find_elements(*locator)
+
+    def clear_input_field(self, locator):
+        WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator)).clear()
+
 def generate_token():
     body = {"email":"meghna.c@kodehash.com","password":"#120Test#"}
     response = requests.post("https://admin.teldrip.com/api/login", json=body)
