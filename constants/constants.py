@@ -2,7 +2,7 @@ class Constant:
 
     #LOGIN
     USERNAME = "meghna.c@kodehash.com"
-    PASSWORD = "#120Test#"
+    PASSWORD = "KODEhash@000"
     BASE_URL = "https://app.teldrip.com/login"
     DATE_RANGE = "last month"
     BASE_API_URL = "https://admin.teldrip.com/"
@@ -14,8 +14,8 @@ class Constant:
     CREATE_OFFER_COUNTRY = "India"
     CREATE_OFFER_NAME = "Avinash Offer"
     CREATE_OFFER_DESCRIPTION = ""
-    CREATE_OFFER_START_DATE = 23 # Current date or later
-    CREATE_OFFER_END_DATE = 23 # Current date or later
+    CREATE_OFFER_START_DATE = 15 # Current date or later
+    CREATE_OFFER_END_DATE = 15 # Current date or later
     OFFER_VISIBILITY = "Public"  # Options: "Public" or "Private"
     CONVERSION_TYPE = "static"  # Options: "Static" or "Dynamic"
     CONVERSION_METHOD = "Normal Conversion" # Options: "Normal Conversion" or "Direct Post Conversion or Ping Post Conversion"
@@ -29,8 +29,8 @@ class Constant:
     EDIT_OFFER_NAME = "Edited Avinash Offer"
     EDIT_OFFER_DESCRIPTION = "This is edited description"
     EDIT_OFFER_COUNTRY = "India"
-    EDIT_OFFER_START_DATE = 23
-    EDIT_OFFER_END_DATE = 23
+    EDIT_OFFER_START_DATE = 15
+    EDIT_OFFER_END_DATE = 15
     EDIT_OFFER_VISIBILITY = "Private"  # Options: "Public" or "Private"
     EDIT_CONVERSION_TYPE = "dynamic"  # Options: "Static" or "Dynamic"
     EDIT_CONVERSION_METHOD = "Direct Post Conversion"  # Options: "Normal Conversion" or "Direct Post Conversion or Ping Post Conversion"

@@ -58,7 +58,10 @@ class Offer(BasePage):
     DUPLICATE_OFFER_BUTTON = (By.XPATH, "//tbody/tr[1]/td[9]/div[1]/div[4]/button[1]")
     STATUS_BUTTON = (By.XPATH, "//tbody/tr[1]/td[7]/div[1]")
     POPUP_STATUS_BTN = (By.XPATH, "//div[@role='alert']/div[2]")
-    OFFER_EXPORT_BTN = (By, "//p[contains(@class,'text-sm text-white')]")
+    OFFER_EXPORT_BTN = (By.XPATH, "//p[contains(@class,'text-sm text-white')]")
+    TABLE = (By.XPATH, "//div[@class='overflow-x-auto max-w-full']")
+    TABLE_NEXT_BUTTON = (By.XPATH, "(//button[@class='p-2 rounded disabled:opacity-50 inline-flex items-center justify-center h-6 w-8 hover:bg-brand-500 hover:text-white'])[2]")
+
 
     def is_offer_table_visible(self):
         return self.element_displayed(self.OFFER_TABLE)
@@ -230,3 +233,6 @@ class Offer(BasePage):
             self.do_click(self.DUPLICATE_TIMEFRAME_TIMELIMIT)
         else:
             raise ValueError("Invalid duplicate timeframe option, please select a valid option")
+
+    def get_all_pages_as_dataframe(self):
+        return self.extract_all_pages_as_dataframe(self.TABLE, self.TABLE_NEXT_BUTTON, exclude_last_n=2)

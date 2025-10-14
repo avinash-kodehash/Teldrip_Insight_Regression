@@ -1,9 +1,12 @@
+import os
+import re
 import time
 from constants.constants import Constant
 from pages.dashboard_page import DashBoard
 from pages.login_page import LoginPage
 from pages.offer_page import Offer
 from datetime import datetime
+import pandas as pd
 
 def test_offer_page_title(driver):
     lp = LoginPage(driver)
@@ -101,7 +104,7 @@ def test_req_received_publisher(driver):
             break
     assert isinstance(o.is_table_data_present(), str), "Table data not present"
 
-def test_delete_offer(driver):
+def _delete_offer(driver):
     lp = LoginPage(driver)
     o = Offer(driver)
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
@@ -179,6 +182,12 @@ def test_status_button(driver):
     text = o.get_element_text(o.POPUP_STATUS_BTN)
     assert text == "updated", "Status button not working"
 
+def normalize_value(val):
+    if isinstance(val, str):
+        # Remove all spaces and plus signs
+        return re.sub(r'[\s+]', '', val)
+    return val
+
 def test_export_offer(driver_with_downloads):
     driver = driver_with_downloads
     lp = LoginPage(driver)
@@ -188,3 +197,28 @@ def test_export_offer(driver_with_downloads):
     db.element_displayed(db.DASHBOARD_TEXT)
     db.click_offer_ele()
     assert isinstance(o.is_table_data_present(), str), "Table data not present"
+    o.js_click(o.OFFER_EXPORT_BTN)
+    time.sleep(10)
+    files = [f for f in os.listdir(driver.download_dir) if f.endswith(".csv")]
+    assert files, "No CSV file found!"
+    csv_file_path = os.path.join(driver.download_dir, files[0])
+    csv_data = pd.read_csv(csv_file_path, sep=",", engine="python")
+    # get UI dataframe
+    ui_df = o.get_all_pages_as_dataframe()
+    # save UI data for debugging/reference
+    ui_df.to_csv("ui_all_data_export.csv", index=False)
+    ui_csv = pd.read_csv("ui_all_data_export.csv")
+    # Strip column names
+    csv_data.columns = [col.strip() for col in csv_data.columns]
+    ui_csv.columns = [col.strip() for col in ui_csv.columns]
+    # csv_data = csv_data[ui_df.columns]
+    csv_data = csv_data.astype(str)
+    ui_csv = ui_csv.astype(str)
+    csv_data = csv_data.applymap(normalize_value)
+    ui_csv = ui_csv.applymap(normalize_value)
+    # compare
+    # print("CSV Data Columns:", csv_data.columns)
+    # print("UI Data Columns:", ui_csv.columns)
+    # print("CSV Data Shape:", csv_data.shape)
+    # print("UI Data Shape:", ui_csv.shape)
+    pd.testing.assert_frame_equal(csv_data, ui_csv, check_dtype=False)

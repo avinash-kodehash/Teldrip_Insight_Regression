@@ -1,0 +1,665 @@
+Date & Time,Campaign,Publisher,Caller ID,Dialed Number,Duplicate,Hang Up,Time to Connect,City,State,Destination Name,Destination Number,Destination Status,Duration,Revenue,Payout
+09/30/2025 08:53:18,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:04,MENDHAM,New Jersey,test_sytem_3,+12054071936,Not Answered,00:00:30,$0.00,$0.00
+09/30/2025 08:50:01,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:21,$0.00,$0.00
+09/30/2025 08:47:29,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:51,$15.00,$4.00
+09/30/2025 08:40:32,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:06,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:27,$0.00,$0.00
+09/30/2025 08:40:31,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:07,BURLINGTON,Massachusetts,test_system_4,+12054071919,Answered,00:03:11,$15.00,$0.00
+09/30/2025 08:40:30,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:06,CENTREVL,Alabama,test_system_4,+12054071919,Answered,00:03:07,$15.00,$0.00
+09/30/2025 08:40:29,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:07,MADISONVL,Kentucky,test_system_4,+12054071919,Answered,00:04:43,$15.00,$0.00
+09/30/2025 08:40:29,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:05,FTLAUDERDL,Florida,test_system_4,+12054071919,Answered,00:03:05,$15.00,$0.00
+09/30/2025 07:24:08,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,Destination,00:00:09,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Answered,00:03:39,$15.00,$4.00
+09/30/2025 07:24:07,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:08,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Answered,00:10:21,$15.00,$4.00
+09/30/2025 07:24:06,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:09,CENTREVL,Alabama,test_sytem_1,+12054071964,Answered,00:03:42,$15.00,$4.00
+09/30/2025 07:24:05,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:08,MADISONVL,Kentucky,test_system_4,+12054071919,Answered,00:10:45,$15.00,$4.00
+09/30/2025 07:24:05,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:06,FTLAUDERDL,Florida,test_system_4,+12054071919,Answered,00:10:42,$15.00,$4.00
+09/30/2025 07:18:09,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:11,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:17,$0.00,$0.00
+09/29/2025 06:08:16,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:38,$15.00,$4.00
+09/29/2025 06:06:39,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:24,$0.00,$0.00
+09/29/2025 06:03:27,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:05,$0.00,$0.00
+09/29/2025 06:00:44,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:06,$0.00,$0.00
+09/29/2025 06:00:16,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:06,$0.00,$0.00
+09/29/2025 05:56:07,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:06,$0.00,$0.00
+09/29/2025 05:55:42,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:06,$0.00,$0.00
+09/29/2025 05:54:39,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:11,$0.00,$0.00
+09/29/2025 02:07:27,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:06,$0.00,$0.00
+09/29/2025 02:05:17,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:04,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:44,$15.00,$4.00
+09/29/2025 00:37:47,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:21,$15.00,$4.00
+09/29/2025 00:36:19,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:09,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:11,$0.00,$0.00
+09/26/2025 06:55:25,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 06:55:08,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:03,FTLAUDERDL,Florida,dest 4,+18333610010,Answered,00:00:38,$12.00,$0.00
+09/26/2025 06:53:48,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:12,NA,NA,dest 4,+18333610010,Not Answered,00:00:33,$0.00,$0.00
+09/26/2025 06:53:47,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:13,TURLOCK,California,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:53:46,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:14,COERDALENE,Idaho,dest 4,+18333610010,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 06:53:46,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:14,DEL NORTE,Colorado,dest 4,+18333610010,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 06:53:45,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,caller,00:00:11,BIG FLATS,New York,dest 4,+18333610010,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 06:53:44,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:12,LINCOLNTON,North Carolina,dest 4,+18333610010,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 06:53:44,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:12,BURLINGTON,Massachusetts,dest 4,+18333610010,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 06:53:43,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:12,CENTREVL,Alabama,dest 4,+18333610010,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 06:53:43,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:11,MADISONVL,Kentucky,dest 4,+18333610010,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 06:53:42,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:09,FTLAUDERDL,Florida,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:45:31,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:12,NA,NA,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:45:30,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:12,TURLOCK,California,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:45:29,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:11,COERDALENE,Idaho,dest 4,+18333610010,Not Answered,00:00:33,$0.00,$0.00
+09/26/2025 06:45:28,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:12,DEL NORTE,Colorado,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:45:28,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:12,BIG FLATS,New York,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:45:27,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:12,LINCOLNTON,North Carolina,dest 4,+18333610010,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 06:45:26,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:11,BURLINGTON,Massachusetts,dest 4,+18333610010,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 06:45:25,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:11,CENTREVL,Alabama,dest 4,+18333610010,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 06:45:25,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:08,MADISONVL,Kentucky,dest 4,+18333610010,Not Answered,00:00:32,$0.00,$0.00
+09/26/2025 06:45:24,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:05,FTLAUDERDL,Florida,dest 4,+18333610010,Not Answered,00:00:30,$0.00,$0.00
+09/26/2025 06:42:42,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:08,LINCOLNTON,North Carolina,dest 4,+18333610010,Not Answered,00:00:29,$0.00,$0.00
+09/26/2025 06:42:42,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:06,BURLINGTON,Massachusetts,dest 4,+18333610010,Not Answered,00:00:28,$0.00,$0.00
+09/26/2025 06:42:42,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:07,CENTREVL,Alabama,dest 4,+18333610010,Not Answered,00:00:29,$0.00,$0.00
+09/26/2025 06:42:41,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:07,MADISONVL,Kentucky,dest 4,+18333610010,Not Answered,00:00:29,$0.00,$0.00
+09/26/2025 06:42:41,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:07,FTLAUDERDL,Florida,dest 4,+18333610010,Not Answered,00:00:30,$0.00,$0.00
+09/26/2025 06:38:17,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:29,$0.00,$0.00
+09/26/2025 06:37:02,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 06:36:05,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 06:30:58,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,Destination,00:00:06,LINCOLNTON,North Carolina,test_sytem_2,+12054071938,Answered,00:01:40,$15.00,$4.00
+09/26/2025 06:30:57,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:07,BURLINGTON,Massachusetts,test_sytem_2,+12054071938,Answered,00:01:42,$15.00,$4.00
+09/26/2025 06:30:56,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:06,CENTREVL,Alabama,test_sytem_1,+12054071964,Answered,00:01:16,$15.00,$4.00
+09/26/2025 06:30:56,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:06,MADISONVL,Kentucky,test_sytem_2,+12054071938,Answered,00:01:39,$15.00,$4.00
+09/26/2025 06:30:55,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:05,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Answered,00:01:17,$15.00,$4.00
+09/26/2025 06:20:49,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,test_sytem_2,+12054071938,Answered,00:03:44,$15.00,$4.00
+09/26/2025 06:10:38,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:04,MENDHAM,New Jersey,test_sytem_1,+12054071964,Answered,00:01:27,$15.00,$4.00
+09/26/2025 06:08:33,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:04,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:30,$0.00,$0.00
+09/26/2025 05:41:55,Campaign Testing - 09.09.2024,Alen Hens,+18333422528,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:54,Campaign Testing - 09.09.2024,Alen Hens,+18333419933,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:53,Campaign Testing - 09.09.2024,Alen Hens,+18333383069,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:53,Campaign Testing - 09.09.2024,Alen Hens,+18333301958,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:52,Campaign Testing - 09.09.2024,Alen Hens,+18333298069,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:52,Campaign Testing - 09.09.2024,Alen Hens,+18333292270,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:51,Campaign Testing - 09.09.2024,Alen Hens,+18333116384,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:50,Campaign Testing - 09.09.2024,Alen Hens,+18333115919,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:50,Campaign Testing - 09.09.2024,Alen Hens,+13185927114,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:49,Campaign Testing - 09.09.2024,Alen Hens,+18336303346,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:48,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:48,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:48,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:47,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:47,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:46,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:46,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:41:45,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:22,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:45,$0.00,$0.00
+09/26/2025 05:41:44,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:23,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:46,$0.00,$0.00
+09/26/2025 05:41:44,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,system,00:00:24,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:47,$0.00,$0.00
+09/26/2025 05:41:43,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:14,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:44,$0.00,$0.00
+09/26/2025 05:41:42,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:15,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:45,$0.00,$0.00
+09/26/2025 05:41:42,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:16,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:46,$0.00,$0.00
+09/26/2025 05:41:41,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:16,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:46,$0.00,$0.00
+09/26/2025 05:41:40,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:13,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:46,$0.00,$0.00
+09/26/2025 05:41:40,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:13,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:46,$0.00,$0.00
+09/26/2025 05:41:39,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:07,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 05:41:38,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:08,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 05:41:38,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:05,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:28,$0.00,$0.00
+09/26/2025 05:41:37,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:26,$0.00,$0.00
+09/26/2025 05:40:12,Campaign Testing - 09.09.2024,Alen Hens,+12016672064,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:54,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:17,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 05:39:54,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:15,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,caller,00:00:00,BURLINGTON,Massachusetts,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,caller,00:00:00,DEL NORTE,Colorado,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,caller,00:00:00,BIG FLATS,New York,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,caller,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:16,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,caller,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,caller,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:16,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,caller,00:00:00,COERDALENE,Idaho,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:17,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,caller,00:00:00,LINCOLNTON,North Carolina,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:53,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:17,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 05:39:52,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,caller,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:52,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,system,00:00:17,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 05:39:52,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,caller,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:52,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,caller,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:39:52,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,caller,00:00:00,MADISONVL,Kentucky,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:04:24,Campaign Testing - 09.09.2024,Alen Hens,+12016672064,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 05:04:08,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:04,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:25,$0.00,$0.00
+09/26/2025 05:04:07,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:25,$0.00,$0.00
+09/26/2025 04:56:32,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:15,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 04:56:32,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:16,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:56:31,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:16,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:56:31,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:17,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:56:30,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:17,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:56:30,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,system,00:00:17,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:56:29,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,system,00:00:14,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:56:29,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:14,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:56:28,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:15,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:56:27,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,system,00:00:16,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:56:27,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:16,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:56:27,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:13,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 04:56:26,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:13,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 04:56:25,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:14,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:56:25,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:14,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:56:24,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:10,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 04:56:24,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:11,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 04:56:23,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:11,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 04:56:23,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:08,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:32,$0.00,$0.00
+09/26/2025 04:56:22,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:08,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:32,$0.00,$0.00
+09/26/2025 04:51:35,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:16,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:51:34,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:17,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:51:34,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:15,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:51:33,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:15,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:51:33,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:16,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:51:32,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,system,00:00:16,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:51:31,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,system,00:00:17,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:51:31,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:17,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:51:31,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:18,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:41,$0.00,$0.00
+09/26/2025 04:51:29,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,system,00:00:14,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:39,$0.00,$0.00
+09/26/2025 04:51:29,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:15,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:51:28,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:15,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:51:28,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:15,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:40,$0.00,$0.00
+09/26/2025 04:51:27,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:16,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:41,$0.00,$0.00
+09/26/2025 04:51:26,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:13,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 04:51:26,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:13,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/26/2025 04:51:25,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:13,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/26/2025 04:51:25,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:09,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 04:51:24,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:10,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:35,$0.00,$0.00
+09/26/2025 04:51:23,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:11,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:36,$0.00,$0.00
+09/26/2025 03:39:40,Campaign Testing - 09.09.2024,Alen Hens,+12016672064,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/26/2025 03:39:16,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:11,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/26/2025 03:39:16,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:11,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:12,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:11,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:12,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:11,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:11,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:11,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:11,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/26/2025 03:39:15,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:11,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/25/2025 07:35:21,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:06,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:27,$0.00,$0.00
+09/25/2025 07:35:20,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:06,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:27,$0.00,$0.00
+09/25/2025 07:35:20,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:26,$0.00,$0.00
+09/25/2025 07:35:19,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:05,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:27,$0.00,$0.00
+09/25/2025 07:35:18,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:26,$0.00,$0.00
+09/25/2025 07:33:49,Campaign Testing - 09.09.2024,Alen Hens,+12016672064,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:33:10,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:04,MADISONVL,Kentucky,test_sytem_1,+12054071964,Answered,00:01:57,$15.00,$0.00
+09/25/2025 07:33:10,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:03,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Answered,00:01:59,$15.00,$0.00
+09/25/2025 07:29:18,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:29:17,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:29:16,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:29:16,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:29:15,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:29:15,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,system,00:00:15,VIVIAN,Texas,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/25/2025 07:29:14,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,system,00:00:15,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/25/2025 07:29:13,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:16,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/25/2025 07:29:13,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:14,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/25/2025 07:29:12,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,system,00:00:15,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/25/2025 07:29:11,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:14,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:38,$0.00,$0.00
+09/25/2025 07:29:11,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:11,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:36,$0.00,$0.00
+09/25/2025 07:29:10,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:12,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/25/2025 07:29:10,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:12,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:37,$0.00,$0.00
+09/25/2025 07:29:09,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:08,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 07:29:08,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:09,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/25/2025 07:29:07,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:08,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 07:29:07,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:08,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 07:29:06,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:05,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 07:29:05,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:26,$0.00,$0.00
+09/25/2025 07:28:21,Campaign Testing - 09.09.2024,Alen Hens,+18333610553,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:20,Campaign Testing - 09.09.2024,Alen Hens,+18333614100,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:19,Campaign Testing - 09.09.2024,Alen Hens,+18333615903,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:18,Campaign Testing - 09.09.2024,Alen Hens,+18333611758,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:17,Campaign Testing - 09.09.2024,Alen Hens,+18333611798,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:16,Campaign Testing - 09.09.2024,Alen Hens,+18333616169,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:16,Campaign Testing - 09.09.2024,Alen Hens,+18333616376,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:16,Campaign Testing - 09.09.2024,Alen Hens,+18333612386,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:15,Campaign Testing - 09.09.2024,Alen Hens,+18333612950,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:15,Campaign Testing - 09.09.2024,Alen Hens,+18333422559,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:14,Campaign Testing - 09.09.2024,Alen Hens,+18333422528,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:13,Campaign Testing - 09.09.2024,Alen Hens,+18333419933,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:12,Campaign Testing - 09.09.2024,Alen Hens,+18333383069,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:12,Campaign Testing - 09.09.2024,Alen Hens,+18333301958,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:11,Campaign Testing - 09.09.2024,Alen Hens,+18333298069,+18777850604,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:10,Campaign Testing - 09.09.2024,Alen Hens,+18333292270,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:09,Campaign Testing - 09.09.2024,Alen Hens,+18333116384,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:09,Campaign Testing - 09.09.2024,Alen Hens,+18333115919,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:08,Campaign Testing - 09.09.2024,Alen Hens,+13185927114,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:07,Campaign Testing - 09.09.2024,Alen Hens,+18336303346,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:06,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:06,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:05,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:04,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:03,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:03,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:02,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:01,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:00,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:28:00,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:27:59,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:27:58,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:27:58,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:00,COERDALENE,Idaho,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 07:27:57,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:09,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 07:27:56,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:07,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:28,$0.00,$0.00
+09/25/2025 07:27:55,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:08,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 07:27:54,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:06,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:28,$0.00,$0.00
+09/25/2025 07:27:53,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:27,$0.00,$0.00
+09/25/2025 07:27:52,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:04,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:26,$0.00,$0.00
+09/25/2025 07:27:51,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:05,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:27,$0.00,$0.00
+09/25/2025 07:20:59,Campaign Testing - 09.09.2024,Alen Hens,+12016672064,+18777850604,Yes,system,00:00:04,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:25,$0.00,$0.00
+09/25/2025 07:20:09,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:11,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 07:20:09,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:11,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 07:20:08,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:12,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/25/2025 07:20:08,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:11,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/25/2025 07:20:07,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:12,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:35,$0.00,$0.00
+09/25/2025 07:20:06,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:12,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:36,$0.00,$0.00
+09/25/2025 07:20:05,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:10,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:34,$0.00,$0.00
+09/25/2025 07:20:05,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:09,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 07:20:05,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:09,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:32,$0.00,$0.00
+09/25/2025 07:20:04,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:06,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:42:16,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:09,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:42:15,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:10,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/25/2025 06:42:14,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:11,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:32,$0.00,$0.00
+09/25/2025 06:42:14,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:12,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 06:42:13,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:09,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/25/2025 06:42:12,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:10,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:32,$0.00,$0.00
+09/25/2025 06:42:11,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:11,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 06:42:11,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:09,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:32,$0.00,$0.00
+09/25/2025 06:42:10,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:06,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 06:42:09,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:05,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 06:41:28,Campaign Testing - 09.09.2024,Alen Hens,+12016672064,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 06:37:41,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:04,MADISONVL,Kentucky,test_sytem_1,+12054071964,Answered,00:03:59,$15.00,$0.00
+09/25/2025 06:37:40,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:04,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Answered,00:04:02,$15.00,$0.00
+09/25/2025 06:09:49,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:09,NA,NA,test_system_4,+12054071919,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:09:48,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:10,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:31,$0.00,$0.00
+09/25/2025 06:09:48,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:10,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:31,$0.00,$0.00
+09/25/2025 06:09:47,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:11,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/25/2025 06:09:46,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:09,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/25/2025 06:09:45,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:10,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/25/2025 06:09:44,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:09,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:31,$0.00,$0.00
+09/25/2025 06:09:43,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:07,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 06:09:43,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:07,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:09:42,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:26,$0.00,$0.00
+09/25/2025 06:07:48,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:08,NA,NA,test_system_4,+12054071919,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 06:07:47,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:08,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 06:07:46,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:09,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:07:45,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:08,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:07:44,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:09,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:31,$0.00,$0.00
+09/25/2025 06:07:43,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:07,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:30,$0.00,$0.00
+09/25/2025 06:07:42,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:06,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:28,$0.00,$0.00
+09/25/2025 06:07:42,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:06,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:28,$0.00,$0.00
+09/25/2025 06:07:41,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:05,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:29,$0.00,$0.00
+09/25/2025 06:07:40,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:26,$0.00,$0.00
+09/25/2025 05:41:59,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:09,$0.00,$0.00
+09/25/2025 03:02:02,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 03:00:10,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/25/2025 02:58:01,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/24/2025 07:51:33,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/24/2025 07:50:32,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:24,$0.00,$0.00
+09/24/2025 03:06:34,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:04,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:02:19,$15.00,$4.00
+09/24/2025 03:03:23,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:49,$15.00,$4.00
+09/24/2025 02:47:59,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:06,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:01:29,$15.00,$4.00
+09/24/2025 02:16:15,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Answered,00:00:33,$15.00,$0.00
+09/24/2025 02:14:33,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:24,$0.00,$0.00
+09/24/2025 02:11:33,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:24,$0.00,$0.00
+09/24/2025 02:09:35,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Answered,00:00:28,$15.00,$0.00
+09/24/2025 01:59:36,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:24,$0.00,$0.00
+09/24/2025 01:57:54,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:04,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:25,$0.00,$0.00
+09/23/2025 02:53:29,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/23/2025 02:21:56,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/23/2025 02:21:31,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/23/2025 02:18:14,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/19/2025 02:04:30,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:25,$0.00,$0.00
+09/19/2025 01:59:53,Campaign Testing - 09.09.2024,Vincent Mark,+12015283865,+18445020787,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:14,$0.00,$0.00
+09/19/2025 01:58:15,Campaign Testing - 09.09.2024,Vincent Mark,+12015283865,+18445020787,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:08,$0.00,$0.00
+09/19/2025 01:43:51,Campaign Testing - 09.09.2024,Vincent Mark,+12015283865,+18445020787,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/19/2025 01:39:43,Campaign Testing - 09.09.2024,Vincent Mark,+12015283865,+18445020787,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/19/2025 00:51:55,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:06,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:27,$0.00,$0.00
+09/19/2025 00:51:54,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:07,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:28,$0.00,$0.00
+09/19/2025 00:51:53,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:06,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:28,$0.00,$0.00
+09/19/2025 00:51:52,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:06,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:28,$0.00,$0.00
+09/19/2025 00:51:52,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:07,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:29,$0.00,$0.00
+09/18/2025 08:30:16,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:30,$15.00,$4.00
+09/18/2025 08:27:16,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 08:25:50,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 08:24:52,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,Destination,00:00:05,LINCOLNTON,North Carolina,test_sytem_2,+12054071938,Answered,00:00:49,$15.00,$0.00
+09/18/2025 08:24:51,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:05,BURLINGTON,Massachusetts,test_sytem_2,+12054071938,Answered,00:00:49,$15.00,$4.00
+09/18/2025 08:24:50,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:05,CENTREVL,Alabama,test_sytem_2,+12054071938,Answered,00:00:50,$15.00,$0.00
+09/18/2025 08:24:50,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:04,MADISONVL,Kentucky,test_sytem_2,+12054071938,Answered,00:00:49,$15.00,$0.00
+09/18/2025 08:24:49,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:04,FTLAUDERDL,Florida,test_sytem_2,+12054071938,Answered,00:00:50,$15.00,$4.00
+09/18/2025 08:24:15,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:07,$0.00,$0.00
+09/18/2025 08:23:37,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 08:21:01,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:05,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 08:21:01,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:05,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 08:21:00,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 08:20:59,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/18/2025 08:20:58,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/18/2025 08:17:06,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 08:15:10,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,Destination,00:00:05,LINCOLNTON,North Carolina,test_system_4,+12054071919,Answered,00:01:24,$0.00,$4.00
+09/18/2025 08:15:09,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:06,BURLINGTON,Massachusetts,test_system_4,+12054071919,Answered,00:01:27,$0.00,$4.00
+09/18/2025 08:15:09,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Answered,00:01:25,$0.00,$4.00
+09/18/2025 08:15:08,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:04,MADISONVL,Kentucky,test_system_4,+12054071919,Answered,00:01:24,$0.00,$4.00
+09/18/2025 08:15:07,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:04,FTLAUDERDL,Florida,test_system_4,+12054071919,Answered,00:01:25,$15.00,$4.00
+09/18/2025 07:56:22,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:05,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 07:56:21,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:06,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/18/2025 07:56:21,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 07:56:20,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:04,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/18/2025 07:56:19,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/18/2025 07:47:49,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:56,$15.00,$4.00
+09/18/2025 07:12:12,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:56:55,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,caller,00:00:05,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Answered,00:01:25,$0.00,$4.00
+09/18/2025 06:56:54,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:05,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Answered,00:01:22,$0.00,$4.00
+09/18/2025 06:56:53,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:05,CENTREVL,Alabama,test_sytem_1,+12054071964,Answered,00:01:22,$0.00,$4.00
+09/18/2025 06:56:52,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:05,MADISONVL,Kentucky,test_sytem_1,+12054071964,Answered,00:01:22,$0.00,$4.00
+09/18/2025 06:56:52,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:04,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Answered,00:01:22,$15.00,$4.00
+09/18/2025 06:53:32,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Answered,00:00:17,$15.00,$4.00
+09/18/2025 06:52:03,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:51:21,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:00,LINCOLNTON,North Carolina,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:51:19,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:00,BURLINGTON,Massachusetts,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:51:19,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:51:18,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:00,MADISONVL,Kentucky,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:51:17,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:00,FTLAUDERDL,Florida,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:47:21,Campaign Testing - 09.09.2024,Vincent Mark,+12016672064,+18445020787,Yes,system,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:43:13,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:10,NA,NA,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/18/2025 06:43:12,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:09,TURLOCK,California,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/18/2025 06:43:12,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:09,COERDALENE,Idaho,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/18/2025 06:43:11,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:08,DEL NORTE,Colorado,test_sytem_1,+12054071964,Not Answered,00:00:30,$0.00,$0.00
+09/18/2025 06:43:10,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:09,BIG FLATS,New York,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/18/2025 06:43:10,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:09,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Not Answered,00:00:31,$0.00,$0.00
+09/18/2025 06:43:09,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:07,BURLINGTON,Massachusetts,test_sytem_1,+12054071964,Not Answered,00:00:30,$0.00,$0.00
+09/18/2025 06:43:09,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:07,CENTREVL,Alabama,test_sytem_1,+12054071964,Not Answered,00:00:30,$0.00,$0.00
+09/18/2025 06:43:09,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:06,MADISONVL,Kentucky,test_sytem_1,+12054071964,Not Answered,00:00:29,$0.00,$0.00
+09/18/2025 06:43:08,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:03,FTLAUDERDL,Florida,test_sytem_1,+12054071964,Not Answered,00:00:26,$0.00,$0.00
+09/18/2025 06:33:19,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:00,BURLINGTON,Massachusetts,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:33:19,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:33:18,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:00,MADISONVL,Kentucky,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:33:17,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:00,FTLAUDERDL,Florida,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/18/2025 06:32:30,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:06,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/18/2025 06:32:29,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:06,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/18/2025 06:32:29,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/18/2025 06:32:28,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:04,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 06:32:27,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:05,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 06:28:56,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:09,NA,NA,test_system_4,+12054071919,Not Answered,00:00:41,$0.00,$0.00
+09/18/2025 06:28:56,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:09,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:41,$0.00,$0.00
+09/18/2025 06:28:55,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:10,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:42,$0.00,$0.00
+09/18/2025 06:28:55,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:11,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:43,$0.00,$0.00
+09/18/2025 06:28:54,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:10,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:41,$0.00,$0.00
+09/18/2025 06:28:53,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:09,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:40,$0.00,$0.00
+09/18/2025 06:28:53,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:10,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:41,$0.00,$0.00
+09/18/2025 06:28:52,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:07,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:39,$0.00,$0.00
+09/18/2025 06:28:51,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:07,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:39,$0.00,$0.00
+09/18/2025 06:28:51,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:05,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 06:23:42,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:08,NA,NA,test_system_4,+12054071919,Not Answered,00:00:39,$0.00,$0.00
+09/18/2025 06:23:41,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:08,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:39,$0.00,$0.00
+09/18/2025 06:23:41,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:09,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:40,$0.00,$0.00
+09/18/2025 06:23:40,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:07,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:39,$0.00,$0.00
+09/18/2025 06:23:39,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:08,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:40,$0.00,$0.00
+09/18/2025 06:23:38,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:07,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:38,$0.00,$0.00
+09/18/2025 06:23:37,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:05,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 06:23:37,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:06,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/18/2025 06:23:36,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:05,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/18/2025 06:23:35,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:04,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/18/2025 06:16:32,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:05,MENDHAM,New Jersey,test_sytem_3,+12054071936,Not Answered,00:00:23,$0.00,$0.00
+09/16/2025 09:09:54,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:05,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/16/2025 09:09:53,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:05,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/16/2025 09:09:52,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,caller,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/16/2025 09:09:51,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:05,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/16/2025 09:09:50,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/16/2025 09:07:26,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:17,$15.00,$4.00
+09/16/2025 09:05:03,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/16/2025 09:03:56,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_sytem_3,+12054071936,Not Answered,00:00:13,$0.00,$0.00
+09/16/2025 09:02:38,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/16/2025 00:58:59,Campaign Testing - 09.09.2024,Vincent Mark,+12016672064,+18445020787,Yes,system,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:24,$0.00,$0.00
+09/15/2025 06:50:28,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:05,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/15/2025 06:50:28,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:05,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/15/2025 06:50:26,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Answered,00:05:28,$15.00,$4.00
+09/15/2025 06:50:26,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:04,MADISONVL,Kentucky,test_sytem_3,+12054071936,Answered,00:05:58,$15.00,$4.00
+09/15/2025 06:50:25,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:04,FTLAUDERDL,Florida,test_sytem_3,+12054071936,Answered,00:06:00,$15.00,$4.00
+09/15/2025 06:48:35,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_sytem_3,+12054071936,Not Answered,00:00:21,$0.00,$0.00
+09/15/2025 06:45:27,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:04,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/15/2025 04:57:41,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:05,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:45,$15.00,$4.00
+09/12/2025 07:25:04,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/12/2025 07:25:03,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:06,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/12/2025 07:25:02,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,caller,00:00:06,COERDALENE,Idaho,test_sytem_1,+12054071964,Answered,00:00:33,$15.00,$0.00
+09/12/2025 07:25:02,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:06,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/12/2025 07:25:01,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,caller,00:00:07,BIG FLATS,New York,test_sytem_1,+12054071964,Answered,00:00:35,$15.00,$0.00
+09/12/2025 07:25:01,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,caller,00:00:05,LINCOLNTON,North Carolina,test_sytem_1,+12054071964,Answered,00:00:35,$15.00,$0.00
+09/12/2025 07:25:00,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,caller,00:00:06,BURLINGTON,Massachusetts,test_system_4,+12054071919,Answered,00:01:11,$15.00,$0.00
+09/12/2025 07:25:00,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,caller,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Answered,00:01:11,$15.00,$0.00
+09/12/2025 07:24:59,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:04,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/12/2025 07:24:59,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,caller,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Answered,00:01:12,$15.00,$0.00
+09/12/2025 07:13:43,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/12/2025 07:13:42,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:04,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/12/2025 07:13:41,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/12/2025 07:13:40,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:04,MADISONVL,Kentucky,test_sytem_1,+12054071964,Answered,00:01:06,$15.00,$0.00
+09/12/2025 07:13:40,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Answered,00:01:40,$15.00,$0.00
+09/12/2025 07:10:22,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:07,$0.00,$0.00
+09/12/2025 07:08:48,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:04,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:24,$0.00,$0.00
+09/11/2025 17:38:43,Campaign Testing - 09.09.2024,Vincent Mark,+13609306993,+18445020787,No,system,00:00:02,BELLEVUE,Washington,test_sytem_1,+12054071964,Not Answered,00:00:23,$0.00,$0.00
+09/11/2025 08:58:44,Campaign Testing - 09.09.2024,Vincent Mark,+12016672064,+18445020787,No,Destination,00:00:04,MENDHAM,New Jersey,test_sytem_1,+12054071964,Answered,00:00:34,$15.00,$0.00
+09/11/2025 02:06:22,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:23,$0.00,$0.00
+09/11/2025 01:13:36,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Answered,00:00:18,$12.00,$4.00
+09/11/2025 01:13:03,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:09,$0.00,$0.00
+09/11/2025 01:11:03,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,dest 4,+18333610010,Answered,00:00:17,$12.00,$4.00
+09/11/2025 01:10:27,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:11,$0.00,$0.00
+09/11/2025 01:09:02,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:24,$0.00,$0.00
+09/11/2025 01:07:38,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Answered,00:00:19,$12.00,$4.00
+09/11/2025 01:05:12,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:16,$0.00,$0.00
+09/10/2025 18:36:09,Campaign Testing - 09.09.2024,Vincent Mark,+19496100700,+18445020787,No,system,00:00:03,NORWALK,California,dest 4,+18333610010,Not Answered,00:00:23,$0.00,$0.00
+09/10/2025 03:33:34,Campaign Testing - 09.09.2024,Vincent Mark,+12016672508,+18445020787,Yes,system,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:23,$0.00,$0.00
+09/10/2025 03:29:21,Campaign Testing - 09.09.2024,Vincent Mark,+12016672508,+18445020787,Yes,caller,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Answered,00:01:08,$12.00,$4.00
+09/09/2025 08:20:03,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:05,NA,NA,dest 4,+18333610010,Not Answered,00:00:26,$0.00,$0.00
+09/09/2025 08:20:02,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,Destination,00:00:05,TURLOCK,California,dest 4,+18333610010,Answered,00:01:35,$12.00,$4.00
+09/09/2025 08:20:02,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:05,COERDALENE,Idaho,Avinash,+918669146493,Not Answered,00:00:26,$0.00,$0.00
+09/09/2025 08:20:01,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:04,DEL NORTE,Colorado,Avinash,+918669146493,Not Answered,00:00:25,$0.00,$0.00
+09/09/2025 08:20:00,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,Destination,00:00:05,BIG FLATS,New York,dest 4,+18333610010,Answered,00:01:32,$12.00,$4.00
+09/09/2025 08:20:00,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:05,LINCOLNTON,North Carolina,Avinash,+918669146493,Not Answered,00:00:27,$0.00,$0.00
+09/09/2025 08:19:59,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:04,BURLINGTON,Massachusetts,Avinash,+918669146493,Not Answered,00:00:26,$0.00,$0.00
+09/09/2025 08:19:58,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,Avinash,+918669146493,Not Answered,00:00:26,$0.00,$0.00
+09/09/2025 08:19:58,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:04,MADISONVL,Kentucky,Avinash,+918669146493,Not Answered,00:00:25,$0.00,$0.00
+09/09/2025 08:19:57,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:03,FTLAUDERDL,Florida,dest 4,+18333610010,Answered,00:01:33,$12.00,$0.00
+09/09/2025 07:47:58,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:23,$0.00,$0.00
+09/09/2025 07:43:42,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:02:26,$15.00,$4.00
+09/09/2025 07:38:59,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:02:28,$15.00,$4.00
+09/09/2025 07:35:19,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:12,$15.00,$4.00
+09/09/2025 07:21:49,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,dest 4,+18333610010,Answered,00:00:31,$12.00,$4.00
+09/09/2025 03:39:01,Campaign Testing - 09.09.2024,Alen Hens,+18333292270,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:39:00,Campaign Testing - 09.09.2024,Alen Hens,+18333116384,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:59,Campaign Testing - 09.09.2024,Alen Hens,+18333115919,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:58,Campaign Testing - 09.09.2024,Alen Hens,+13185927114,+18777850604,Yes,system,00:00:06,VIVIAN,Texas,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:38:58,Campaign Testing - 09.09.2024,Alen Hens,+18336303346,+18777850604,Yes,system,00:00:06,NA,NA,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:38:57,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:06,NA,NA,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:38:56,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,system,00:00:05,VIVIAN,Texas,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:38:55,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:55,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:54,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:53,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,caller,00:00:04,VIVIAN,Texas,test_system_4,+12054071919,Answered,00:02:27,$15.00,$0.00
+09/09/2025 03:38:53,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,caller,00:00:04,TURLOCK,California,test_system_4,+12054071919,Answered,00:02:29,$15.00,$0.00
+09/09/2025 03:38:52,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:51,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:04,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:38:51,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,caller,00:00:05,NA,NA,test_sytem_3,+12054071936,Answered,00:01:58,$15.00,$0.00
+09/09/2025 03:38:50,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,caller,00:00:04,NA,NA,test_system_4,+12054071919,Answered,00:02:33,$15.00,$0.00
+09/09/2025 03:38:48,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:04,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:38:47,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,caller,00:00:04,COERDALENE,Idaho,test_sytem_3,+12054071936,Answered,00:02:03,$15.00,$0.00
+09/09/2025 03:38:47,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:04,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:38:45,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:04,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:38:45,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:38:43,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:38:43,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:38:42,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:38:41,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:30:17,Campaign Testing - 09.09.2024,Alen Hens,+18333292270,+18777850604,No,Destination,00:00:06,NA,NA,test_sytem_2,+12054071938,Answered,00:02:42,$15.00,$4.00
+09/09/2025 03:30:16,Campaign Testing - 09.09.2024,Alen Hens,+18333116384,+18777850604,No,Destination,00:00:06,NA,NA,test_sytem_2,+12054071938,Answered,00:02:40,$15.00,$4.00
+09/09/2025 03:30:15,Campaign Testing - 09.09.2024,Alen Hens,+18333115919,+18777850604,No,Destination,00:00:07,NA,NA,test_sytem_3,+12054071936,Answered,00:03:04,$15.00,$0.00
+09/09/2025 03:30:14,Campaign Testing - 09.09.2024,Alen Hens,+13185927114,+18777850604,No,system,00:00:06,VIVIAN,Texas,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:30:14,Campaign Testing - 09.09.2024,Alen Hens,+18336303346,+18777850604,No,system,00:00:07,NA,NA,test_system_4,+12054071919,Not Answered,00:00:38,$0.00,$0.00
+09/09/2025 03:30:13,Campaign Testing - 09.09.2024,Alen Hens,+18334331742,+18777850604,Yes,system,00:00:07,NA,NA,test_system_4,+12054071919,Not Answered,00:00:38,$0.00,$0.00
+09/09/2025 03:30:12,Campaign Testing - 09.09.2024,Alen Hens,+13185927078,+18777850604,Yes,Destination,00:00:06,VIVIAN,Texas,test_system_4,+12054071919,Answered,00:03:19,$15.00,$0.00
+09/09/2025 03:30:11,Campaign Testing - 09.09.2024,Alen Hens,+12053259021,+18777850604,Yes,Destination,00:00:06,CENTREVL,Alabama,test_system_4,+12054071919,Answered,00:03:21,$15.00,$0.00
+09/09/2025 03:30:10,Campaign Testing - 09.09.2024,Alen Hens,+12053259020,+18777850604,Yes,system,00:00:05,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:30:10,Campaign Testing - 09.09.2024,Alen Hens,+12053081896,+18777850604,Yes,system,00:00:06,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:30:08,Campaign Testing - 09.09.2024,Alen Hens,+13185927062,+18777850604,Yes,Destination,00:00:06,VIVIAN,Texas,dest 4,+18333610010,Answered,00:03:29,$12.00,$0.00
+09/09/2025 03:30:08,Campaign Testing - 09.09.2024,Alen Hens,+12099611500,+18777850604,Yes,system,00:00:06,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:30:07,Campaign Testing - 09.09.2024,Alen Hens,+12487494403,+18777850604,Yes,system,00:00:06,NA,NA,test_system_4,+12054071919,Not Answered,00:00:37,$0.00,$0.00
+09/09/2025 03:30:06,Campaign Testing - 09.09.2024,Alen Hens,+12095694041,+18777850604,Yes,system,00:00:06,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:30:05,Campaign Testing - 09.09.2024,Alen Hens,+12487494423,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:30:05,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,Destination,00:00:06,NA,NA,dest 4,+18333610010,Answered,00:03:30,$12.00,$0.00
+09/09/2025 03:30:04,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:04,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:30:04,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,Destination,00:00:05,COERDALENE,Idaho,test_sytem_3,+12054071936,Answered,00:03:08,$15.00,$0.00
+09/09/2025 03:30:03,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:04,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:30:03,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,Destination,00:00:05,BIG FLATS,New York,test_system_4,+12054071919,Answered,00:03:23,$15.00,$0.00
+09/09/2025 03:30:01,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:30:01,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:04,BURLINGTON,Massachusetts,test_sytem_3,+12054071936,Answered,00:03:09,$15.00,$0.00
+09/09/2025 03:30:00,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:29:59,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Answered,00:03:22,$15.00,$0.00
+09/09/2025 03:29:58,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:03,FTLAUDERDL,Florida,test_sytem_3,+12054071936,Answered,00:03:09,$15.00,$0.00
+09/09/2025 03:25:37,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:05,NA,NA,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:25:37,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:05,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 03:25:36,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:04,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:25:35,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:05,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:25:34,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:03,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:25:33,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:25:33,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:04,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 03:25:32,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 03:25:31,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,caller,00:00:03,MADISONVL,Kentucky,dest 4,+18333610010,Answered,00:02:42,$12.00,$0.00
+09/09/2025 03:25:31,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,caller,00:00:02,FTLAUDERDL,Florida,dest 4,+18333610010,Answered,00:02:43,$12.00,$0.00
+09/09/2025 02:27:34,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,caller,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:27:34,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,caller,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 02:27:33,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,caller,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 02:27:32,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,caller,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 02:27:31,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,caller,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/09/2025 02:24:21,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:04,NA,NA,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:24:21,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:05,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 02:24:20,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:05,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 02:24:19,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:05,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 02:24:19,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:05,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 02:24:18,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:05,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 02:24:18,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:04,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:24:17,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:04,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:24:16,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 02:24:15,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 02:18:39,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:04,NA,NA,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 02:18:38,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:04,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:18:38,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:04,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:18:37,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:04,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/09/2025 02:18:36,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:05,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/09/2025 02:18:35,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,Destination,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Answered,00:02:51,$15.00,$0.00
+09/09/2025 02:18:34,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:04,BURLINGTON,Massachusetts,test_system_4,+12054071919,Answered,00:02:53,$15.00,$0.00
+09/09/2025 02:18:34,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,Destination,00:00:03,CENTREVL,Alabama,dest 4,+18333610010,Answered,00:03:10,$12.00,$0.00
+09/09/2025 02:18:33,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:03,MADISONVL,Kentucky,dest 4,+18333610010,Answered,00:03:08,$12.00,$0.00
+09/09/2025 02:18:32,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:02,FTLAUDERDL,Florida,dest 4,+18333610010,Answered,00:03:06,$12.00,$0.00
+09/09/2025 02:15:49,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:02,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:23,$0.00,$0.00
+09/09/2025 02:14:37,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,dest 4,+18333610010,Not Answered,00:00:06,$0.00,$0.00
+09/09/2025 02:12:08,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:23,$0.00,$0.00
+09/09/2025 02:09:39,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/09/2025 01:33:30,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:24,$0.00,$0.00
+09/08/2025 09:42:17,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:23,$0.00,$0.00
+09/08/2025 08:13:19,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:13,$15.00,$4.00
+09/08/2025 08:09:35,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:23,$0.00,$0.00
+09/08/2025 07:37:57,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:03,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 07:37:56,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 07:37:55,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:02,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 07:37:54,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 07:37:53,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 07:33:44,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:07,$0.00,$0.00
+09/08/2025 07:32:05,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:23,$0.00,$0.00
+09/08/2025 07:09:38,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 06:28:31,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:28,$0.00,$0.00
+09/08/2025 06:15:01,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:04,NA,NA,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 06:15:01,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:05,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:36,$0.00,$0.00
+09/08/2025 06:15:00,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:04,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 06:14:59,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:04,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 06:14:58,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:03,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 06:14:58,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:03,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 06:14:57,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 06:14:56,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 06:14:55,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:02,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 06:14:54,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 06:10:03,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:28,$0.00,$0.00
+09/08/2025 05:57:55,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:09,$0.00,$0.00
+09/08/2025 05:55:15,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 05:43:50,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:22,$15.00,$4.00
+09/08/2025 05:41:23,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:10,$15.00,$4.00
+09/08/2025 05:40:36,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:10:37,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:02,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:10:36,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:02,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:10:35,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 03:10:34,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:03,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 03:10:32,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:07:34,Campaign Testing - 09.09.2024,Alen Hens,+18887981130,+18777850604,Yes,system,00:00:04,NA,NA,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 03:07:34,Campaign Testing - 09.09.2024,Alen Hens,+12092031655,+18777850604,Yes,system,00:00:04,TURLOCK,California,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 03:07:33,Campaign Testing - 09.09.2024,Alen Hens,+19869468074,+18777850604,Yes,system,00:00:04,COERDALENE,Idaho,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 03:07:32,Campaign Testing - 09.09.2024,Alen Hens,+17196018955,+18777850604,Yes,system,00:00:04,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/08/2025 03:07:31,Campaign Testing - 09.09.2024,Alen Hens,+16074650160,+18777850604,Yes,system,00:00:04,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 03:07:30,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 03:07:29,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:02,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:07:29,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 03:07:27,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:02,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:07:26,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:05:52,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 03:04:48,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_sytem_2,+12054071938,Not Answered,00:00:29,$0.00,$0.00
+09/08/2025 03:00:55,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 01:50:59,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 01:50:24,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:11,$0.00,$0.00
+09/08/2025 01:48:36,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:01:31,$15.00,$4.00
+09/08/2025 01:24:34,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:56,$15.00,$4.00
+09/08/2025 01:21:16,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 01:06:59,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:02:14,$15.00,$4.00
+09/08/2025 01:06:11,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 01:03:39,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/08/2025 00:58:07,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 00:29:27,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:23,$0.00,$0.00
+09/08/2025 00:28:06,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/08/2025 00:16:26,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:08,$15.00,$4.00
+09/08/2025 00:15:38,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,system,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:23,$0.00,$0.00
+09/05/2025 09:11:27,Campaign Testing - 09.09.2024,Vincent Mark,+12016672508,+18445020787,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:13,$0.00,$0.00
+09/05/2025 07:52:52,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:23,$15.00,$4.00
+09/05/2025 07:51:43,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/05/2025 07:22:43,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:48,$15.00,$4.00
+09/05/2025 07:17:32,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/05/2025 07:15:04,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:16,$0.00,$4.00
+09/05/2025 07:14:16,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Not Answered,00:00:22,$0.00,$0.00
+09/05/2025 07:09:21,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:20,$0.00,$4.00
+09/05/2025 07:05:11,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:02:38,$15.00,$4.00
+09/05/2025 07:01:34,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:03:17,$15.00,$4.00
+09/05/2025 06:58:43,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,Destination,00:00:03,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:01:43,$15.00,$4.00
+09/05/2025 06:53:37,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,Avinash,+918669146493,Answered,00:00:48,$15.00,$4.00
+09/05/2025 06:48:40,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/05/2025 06:46:29,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/05/2025 06:45:48,Campaign Testing - 09.09.2024,Alen Hens,+12012280428,+18777850604,No,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/05/2025 03:56:31,Campaign Testing - 09.09.2024,Vincent Mark,+12016672508,+18445020787,No,Destination,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:45,$15.00,$4.00
+09/05/2025 02:54:29,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:56,$15.00,$4.00
+09/05/2025 02:52:53,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:15,$0.00,$0.00
+09/05/2025 02:41:12,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,system,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/05/2025 02:19:16,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:58,$15.00,$4.00
+09/04/2025 08:03:56,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:48,$15.00,$4.00
+09/04/2025 08:01:27,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:04,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:57,$15.00,$4.00
+09/04/2025 07:58:26,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:00,MENDHAM,New Jersey,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/04/2025 07:32:31,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:04,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/04/2025 07:32:30,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,Destination,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Answered,00:02:31,$15.00,$0.00
+09/04/2025 07:32:29,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:35,$0.00,$0.00
+09/04/2025 07:32:28,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,Destination,00:00:02,MADISONVL,Kentucky,test_system_4,+12054071919,Answered,00:02:33,$15.00,$0.00
+09/04/2025 07:32:28,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,Destination,00:00:03,FTLAUDERDL,Florida,test_system_4,+12054071919,Answered,00:02:22,$15.00,$0.00
+09/04/2025 07:30:33,Campaign Testing - 09.09.2024,Alen Hens,+19803271868,+18777850604,Yes,system,00:00:00,LINCOLNTON,North Carolina,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/04/2025 07:30:33,Campaign Testing - 09.09.2024,Alen Hens,+19787971079,+18777850604,Yes,system,00:00:02,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/04/2025 07:30:32,Campaign Testing - 09.09.2024,Alen Hens,+12568548442,+18777850604,Yes,system,00:00:02,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/04/2025 07:30:31,Campaign Testing - 09.09.2024,Alen Hens,+13644440950,+18777850604,Yes,system,00:00:02,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/04/2025 07:30:30,Campaign Testing - 09.09.2024,Alen Hens,+17543060630,+18777850604,Yes,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/04/2025 07:27:06,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:03,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/04/2025 06:04:01,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,Destination,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Answered,00:00:57,$15.00,$4.00
+09/04/2025 05:39:06,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,Yes,caller,00:00:02,MENDHAM,New Jersey,test_system_4,+12054071919,Not Answered,00:00:32,$0.00,$0.00
+09/03/2025 05:19:18,Campaign Testing - 09.09.2024,Vincent Mark,+18334331742,+18445020787,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:17,Campaign Testing - 09.09.2024,Vincent Mark,+13185927078,+18445020787,No,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:17,Campaign Testing - 09.09.2024,Vincent Mark,+12053259021,+18445020787,No,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:16,Campaign Testing - 09.09.2024,Vincent Mark,+12053259020,+18445020787,No,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:16,Campaign Testing - 09.09.2024,Vincent Mark,+12053081896,+18445020787,No,system,00:00:00,CENTREVL,Alabama,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:15,Campaign Testing - 09.09.2024,Vincent Mark,+13185927062,+18445020787,No,system,00:00:00,VIVIAN,Texas,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:14,Campaign Testing - 09.09.2024,Vincent Mark,+12099611500,+18445020787,No,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:14,Campaign Testing - 09.09.2024,Vincent Mark,+12487494403,+18445020787,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:13,Campaign Testing - 09.09.2024,Vincent Mark,+12095694041,+18445020787,No,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:13,Campaign Testing - 09.09.2024,Vincent Mark,+12487494423,+18445020787,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:12,Campaign Testing - 09.09.2024,Vincent Mark,+18887981130,+18445020787,No,system,00:00:00,NA,NA,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:12,Campaign Testing - 09.09.2024,Vincent Mark,+12092031655,+18445020787,No,system,00:00:00,TURLOCK,California,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:11,Campaign Testing - 09.09.2024,Vincent Mark,+19869468074,+18445020787,No,system,00:00:00,COERDALENE,Idaho,NA,NA,Not Answered,00:00:00,$0.00,$0.00
+09/03/2025 05:19:10,Campaign Testing - 09.09.2024,Vincent Mark,+17196018955,+18445020787,No,system,00:00:03,DEL NORTE,Colorado,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:19:09,Campaign Testing - 09.09.2024,Vincent Mark,+16074650160,+18445020787,No,system,00:00:04,BIG FLATS,New York,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:19:09,Campaign Testing - 09.09.2024,Vincent Mark,+19803271868,+18445020787,Yes,system,00:00:03,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:19:08,Campaign Testing - 09.09.2024,Vincent Mark,+19787971079,+18445020787,Yes,system,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:19:07,Campaign Testing - 09.09.2024,Vincent Mark,+12568548442,+18445020787,Yes,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:19:07,Campaign Testing - 09.09.2024,Vincent Mark,+13644440950,+18445020787,Yes,system,00:00:02,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:19:06,Campaign Testing - 09.09.2024,Vincent Mark,+17543060630,+18445020787,Yes,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/03/2025 05:16:23,Campaign Testing - 09.09.2024,Vincent Mark,+19803271868,+18445020787,No,system,00:00:03,LINCOLNTON,North Carolina,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/03/2025 05:16:22,Campaign Testing - 09.09.2024,Vincent Mark,+19787971079,+18445020787,No,system,00:00:03,BURLINGTON,Massachusetts,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:16:21,Campaign Testing - 09.09.2024,Vincent Mark,+12568548442,+18445020787,No,system,00:00:03,CENTREVL,Alabama,test_system_4,+12054071919,Not Answered,00:00:34,$0.00,$0.00
+09/03/2025 05:16:21,Campaign Testing - 09.09.2024,Vincent Mark,+13644440950,+18445020787,No,system,00:00:02,MADISONVL,Kentucky,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/03/2025 05:16:20,Campaign Testing - 09.09.2024,Vincent Mark,+17543060630,+18445020787,No,system,00:00:02,FTLAUDERDL,Florida,test_system_4,+12054071919,Not Answered,00:00:33,$0.00,$0.00
+09/03/2025 01:46:51,Campaign Testing - 09.09.2024,Alen Hens,+12015283865,+18777850604,No,Destination,00:00:08,MENDHAM,New Jersey,test_sytem_1,+12054071964,Not Answered,00:00:18,$0.00,$0.00

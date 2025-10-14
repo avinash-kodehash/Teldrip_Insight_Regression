@@ -3,10 +3,14 @@ import shutil
 
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
 from constants.constants import Constant
 
 @pytest.fixture(scope="function")
 def driver():
+    options = Options()
+    options.add_argument("--headless")
     driver = webdriver.Chrome()
     driver.get(Constant.BASE_URL)
     driver.maximize_window()

@@ -64,8 +64,8 @@ class BasePage:
         df = pd.DataFrame(data, columns=headers)
 
         # Drop S.no column if present
-        if drop_sno and 'S.no' in df.columns:
-            df = df.drop(columns=['S.no'])
+        if drop_sno and df.shape[1] > 0:
+            df = df.drop(df.columns[0], axis=1)
         return df
 
 
@@ -130,8 +130,12 @@ class BasePage:
     def clear_input_field(self, locator):
         WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator)).clear()
 
+    def js_click(self, locator):
+        element = WebDriverWait(self.driver,10).until(EC.element_to_be_clickable(locator))
+        self.driver.execute_script("arguments[0].click();", element)
+
 def generate_token():
-    body = {"email":"meghna.c@kodehash.com","password":"#120Test#"}
+    body = {"email":"meghna.c@kodehash.com","password":"KODEhash@000"}
     response = requests.post("https://admin.teldrip.com/api/login", json=body)
     return response.json()["access_token"]
 

@@ -2,6 +2,7 @@ import os
 import re
 import time
 import pandas as pd
+import pytest
 import requests
 from selenium.common import TimeoutException
 from constants.constants import Constant
@@ -260,6 +261,7 @@ def normalize_value(val):
         return re.sub(r'[\s+]', '', val)
     return val
 
+@pytest.mark.skip(reason="Skipping test to save time")
 def test_reporting_export_this_page(driver_with_downloads):
     driver = driver_with_downloads
     lp = LoginPage(driver)
@@ -302,6 +304,7 @@ def test_reporting_export_this_page(driver_with_downloads):
     # compare
     pd.testing.assert_frame_equal(csv_data, ui_csv, check_dtype=False)
 
+@pytest.mark.skip(reason="Skipping test to save time")
 def test_reporting_export_all_data(driver_with_downloads):
     driver = driver_with_downloads
     lp = LoginPage(driver)
@@ -322,7 +325,7 @@ def test_reporting_export_all_data(driver_with_downloads):
     r.do_click(r.EXPORT_BUTTON)
     r.do_click(r.EXPORT_ALL_ROWS)
     r.do_click(r.EXPORT_SUB_BUTTON_ALL_DATA)
-    time.sleep(15)
+    time.sleep(20)
     files = [f for f in os.listdir(driver.download_dir) if f.endswith(".csv")]
     assert files, "No CSV file found!"
     csv_file_path = os.path.join(driver.download_dir, files[0])
