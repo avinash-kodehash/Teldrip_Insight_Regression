@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test artifacts
+logs/
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# pytest
+.pytest_cache/
+.cache/
+
+# Test reports
+reports/allure-results/
+reports/allure-report/
+reports/html/
+reports/screenshots/
+report.html
+*.html
+
+# Coverage
+.coverage
+htmlcov/
+.tox/
+
+# Downloaded files
+downloads/
+downloaded_csv/
+*.csv
+!testdata/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python eggs
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# PyInstaller
+*.exe
+*.so
+*.dylib
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+*.bak
+*~
+*.orig
+
+# Selenium
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+

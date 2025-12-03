@@ -6,7 +6,6 @@ class Profile(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 
-
     PROFILE_BTN = (By.XPATH, "//p[@aria-label='Profile']")
     PROFILE_SUB_BTN = (By.XPATH, "//button[normalize-space()='Profile']")
     PROFILE_NAME = (By.XPATH, "//li[normalize-space()='Name']")

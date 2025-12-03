@@ -7,47 +7,89 @@ from pages.login_page import LoginPage
 from pages.offer_page import Offer
 from datetime import datetime
 import pandas as pd
+from utils.logger import Logger
+
+# Initialize logger
+logger = Logger.get_logger(__name__)
 
 def test_offer_page_title(driver):
+    logger.info("Starting test: test_offer_page_title")
     lp = LoginPage(driver)
+    
+    logger.info("Step 1: Performing login")
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    
+    logger.info("Step 2: Verifying dashboard is displayed")
     db = DashBoard(driver)
     db.element_displayed(db.DASHBOARD_TEXT)
+    
+    logger.info("Step 3: Navigating to Offer page")
     db.click_offer_ele()
     #db.do_click(db.OFFER_TAB)
+    
+    logger.info("Step 4: Verifying offer page title")
     o = Offer(driver)
     assert o.get_element_text(o.OFFER_TITLE) == "Offer", "Offer page title mismatch"
+    logger.info("Test completed successfully: test_offer_page_title")
 
 def test_offer_table_visibility(driver):
+    logger.info("Starting test: test_offer_table_visibility")
     lp = LoginPage(driver)
+    
+    logger.info("Step 1: Performing login")
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    
+    logger.info("Step 2: Verifying dashboard is displayed")
     db = DashBoard(driver)
     db.element_displayed(db.DASHBOARD_TEXT)
+    
+    logger.info("Step 3: Navigating to Offer page")
     db.click_offer_ele()
     #db.do_click(db.OFFER_TAB)
+    
+    logger.info("Step 4: Verifying offer table data is present")
     o = Offer(driver)
     assert isinstance(o.is_table_data_present(), str),"Table data not present"
+    logger.info("Test completed successfully: test_offer_table_visibility")
 
 def test_offer_table_date_format(driver):
+    logger.info("Starting test: test_offer_table_date_format")
     lp = LoginPage(driver)
+    
+    logger.info("Step 1: Performing login")
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    
+    logger.info("Step 2: Verifying dashboard is displayed")
     db = DashBoard(driver)
     db.element_displayed(db.DASHBOARD_TEXT)
+    
+    logger.info("Step 3: Navigating to Offer page")
     db.click_offer_ele()
     # db.do_click(db.OFFER_TAB)
+    
+    logger.info("Step 4: Verifying table data and date format")
     o = Offer(driver)
     assert isinstance(o.is_table_data_present(), str), "Table data not present"
     act_start_date = o.get_element_text(o.TABLE_START_DATE)
+    logger.info(f"Start date from table: {act_start_date}")
     #act_end_date = o.get_element_text(o.TABLE_END_DATE)
     assert datetime.strptime(act_start_date, "%m/%d/%Y")
     #assert datetime.strptime(act_end_date, "%m/%d/%Y")
+    logger.info("Test completed successfully: test_offer_table_date_format")
 
 def test_offer_search_functionality(driver):
+    logger.info("Starting test: test_offer_search_functionality")
     lp = LoginPage(driver)
     o = Offer(driver)
+    
+    logger.info("Step 1: Performing login")
     lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    
+    logger.info("Step 2: Verifying dashboard is displayed")
     db = DashBoard(driver)
     db.element_displayed(db.DASHBOARD_TEXT)
+    
+    logger.info("Step 3: Navigating to Offer page")
     db.click_offer_ele()
     # db.do_click(db.OFFER_TAB)
     assert isinstance(o.is_table_data_present(), str), "Table data not present"

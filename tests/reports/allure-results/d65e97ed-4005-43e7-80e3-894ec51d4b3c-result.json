@@ -1,0 +1,1 @@
+{"name": "Valid Login Test", "status": "skipped", "description": "Test successful login with valid credentials", "start": 1760615896668, "stop": 1760615896668, "uuid": "75412fc9-9326-435e-a58b-413b267c9dcf", "testCaseId": "2116f0ad00ab1de0effc54f114dd9496", "fullName": "tests.test_login.TestLogin#test_login", "titlePath": ["tests", "test_login.py", "TestLogin"]}

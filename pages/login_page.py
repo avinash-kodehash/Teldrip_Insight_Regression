@@ -15,14 +15,20 @@ class LoginPage(BasePage):
         super().__init__(driver)
 
     def do_login(self,username,password):
+        self.logger.info(f"Performing login with username: {username}")
         self.fill(self.EMAIL,username)
         self.fill(self.PASSWORD,password)
         self.do_click(self.LOGIN_BUTTON)
+        self.logger.info("Login credentials submitted successfully")
 
     def is_login_successful(self):
+        self.logger.info("Checking if login was successful")
         db = DashBoard(self.driver)
         try:
-            return db.element_displayed(db.DASHBOARD_TEXT)
-        except:
+            result = db.element_displayed(db.DASHBOARD_TEXT)
+            self.logger.info(f"Login success check result: {result}")
+            return result
+        except Exception as e:
+            self.logger.error(f"Login failed: {str(e)}")
             return False
 

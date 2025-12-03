@@ -18,16 +18,22 @@ class DashBoard(BasePage):
         super().__init__(driver)
 
     def click_reporting_ele(self):
+        self.logger.info("Navigating to Reporting section")
         self.do_click(self.REPORTING_ELE)
 
     def click_advertiser_ele(self):
+        self.logger.info("Navigating to Advertiser section")
         self.do_click(self.ADVERTISER_TAB)
 
     def is_table_data_present(self):
+        self.logger.info("Checking if table data is present")
         self.wait_for_non_empty_text(self.FIRST_CELL)
-        return self.driver.find_element(*self.FIRST_CELL).text
+        data = self.driver.find_element(*self.FIRST_CELL).text
+        self.logger.info(f"Table data present: {data}")
+        return data
 
     def click_offer_ele(self):
+        self.logger.info("Navigating to Offer section")
         self.do_click(self.OFFER_TAB)
 
 

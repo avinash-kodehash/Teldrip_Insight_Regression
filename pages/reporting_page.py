@@ -65,10 +65,14 @@ class Reporting(BasePage):
     TABLE_NEXT_BUTTON = (By.XPATH, "//div[@id='insights']//button[@class='p-2 rounded disabled:opacity-50 inline-flex items-center justify-center h-6 w-8 hover:bg-brand-500 hover:text-white'][2]")
 
     def is_table_data_present(self):
+        self.logger.info("Checking if table data is present in reporting page")
         self.wait_for_non_empty_text(self.FIRST_CELL)
-        return self.driver.find_element(*self.FIRST_CELL).text
+        data = self.driver.find_element(*self.FIRST_CELL).text
+        self.logger.info(f"Table data found: {data}")
+        return data
 
     def set_date(self, date_range):
+        self.logger.info(f"Setting date range to: {date_range}")
         if date_range=="last month":
             self.do_click(self.DATE_RANGE)
             self.do_click(self.DATE_LAST_MONTH)
@@ -97,21 +101,30 @@ class Reporting(BasePage):
             self.do_click(self.DATE_RANGE)
             self.do_click(self.DATE_THIS_WEEK)
         else:
+            self.logger.error(f"Invalid date range option: {date_range}")
             raise ValueError("Invalid date range option, please select a valid option")
+        self.logger.info(f"Date range set successfully to: {date_range}")
 
     def get_call_values_as_list(self, calls_locators):
+        self.logger.info(f"Extracting call values from {len(calls_locators)} locators")
         for call in calls_locators:
             text = self.get_element_text(call)
-            self.num.append(int(text.split("-")[-1].strip()))
+            value = int(text.split("-")[-1].strip())
+            self.num.append(value)
+        self.logger.info(f"Extracted call values: {self.num}")
 
     def get_table_as_dataframe(self):
+        self.logger.info("Extracting reporting table as dataframe")
         return self.extract_table_as_dataframe(self.TABLE, exclude_last_n=2)
 
     def get_all_pages_as_dataframe(self):
+        self.logger.info("Extracting all pages of reporting table as dataframe")
         return self.extract_all_pages_as_dataframe(self.TABLE, self.TABLE_NEXT_BUTTON, exclude_last_n=2)
 
     def select_table_dropdown(self, value):
+        self.logger.info(f"Selecting table dropdown value: {value}")
         #self.scroll_to_element(self.TABLE_DROP_DOWN)
         dropdown = self.driver.find_element(*self.TABLE_DROP_DOWN)
         select = Select(dropdown)
         select.select_by_value(value)
+        self.logger.info(f"Table dropdown value {value} selected successfully")

@@ -1,9 +1,24 @@
 Offer ID,Offer Name,Start Date,End Date,Country,Status,Request Received
+75,TEst_1,11/24/2025,11/24/2025,Albania,Active,0
+74,TEst,11/24/2025,11/24/2025,Albania,Active,0
+73,Edited Avinash Offer,11/19/2025,11/19/2025,India,Inactive,0
+72,Ajay Offer_1,11/19/2025,11/19/2025,India,Active,0
+71,Duplicate Avinash Offer,11/13/2025,11/13/2025,India,Active,0
+70,Edited Avinash Offer,11/13/2025,11/13/2025,India,Active,0
+69,Test ofer,11/13/2025,NA,Belarus,Inactive,0
+55,Edited Avinash Offer,09/29/2025,09/29/2025,India,Active,3
+54,Avinash Offer,09/29/2025,09/29/2025,India,Active,1
+64,Duplicate Avinash Offer,10/15/2025,10/15/2025,India,Active,0
+67,Ajay Offer_1,11/07/2025,11/07/2025,India,Active,0
+58,Edited Avinash Offer,10/15/2025,10/15/2025,India,Active,0
+51,Edited Avinash Offer,09/23/2025,09/23/2025,India,Active,0
+68,Ajay Offer_1,11/07/2025,11/07/2025,India,Active,0
+66,Duplicate Avinash Offer,09/29/2025,09/29/2025,India,Active,0
+65,Edited Avinash Offer,10/29/2025,10/29/2025,India,Active,0
+61,Duplicate Avinash Offer,10/15/2025,10/15/2025,India,Active,0
+62,Ajay Offer_1,10/28/2025,10/28/2025,India,Active,0
 57,Duplicate Avinash Offer,10/15/2025,10/15/2025,India,Active,0
 56,Edited Avinash Offer,10/15/2025,10/15/2025,India,Active,0
-55,Duplicate Avinash Offer,09/29/2025,09/29/2025,India,Active,0
-54,Avinash Offer,09/29/2025,09/29/2025,India,Active,0
-51,Edited Avinash Offer,09/23/2025,09/23/2025,India,Inactive,0
 31,offer abc,04/10/2025,NA,Albania,Active,1
 27,Campaign Testing - 21.11.2024,11/21/2024,NA,India,Active,1
 28,Flight insurance_1,07/26/2024,07/26/2024,United States,Active,0

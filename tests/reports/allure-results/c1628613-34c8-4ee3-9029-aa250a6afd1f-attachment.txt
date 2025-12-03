@@ -1,0 +1,11 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\Avinash Kumar\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m tests.conftest:conftest.py:78 Driver initialized successfully
+[32mINFO    [0m pages.base_page:base_page.py:47 Successfully filled element ('xpath', "//input[@placeholder='Enter Your Email ID']") with text: Avinash Ku...
+[32mINFO    [0m pages.base_page:base_page.py:47 Successfully filled element ('xpath', "//input[@placeholder='Enter Password']") with text: your_passw...
+[32mINFO    [0m pages.base_page:base_page.py:29 Successfully clicked element: ('xpath', "//button[normalize-space()='Login']")
+[32mINFO    [0m tests.conftest:conftest.py:152 User logged in successfully
+[33mWARNING [0m pages.base_page:base_page.py:66 Element not visible within 10 seconds: ('xpath', "//h1[normalize-space()='Dashboard']")
+[32mINFO    [0m tests.conftest:conftest.py:85 Driver closed

@@ -64,63 +64,83 @@ class Offer(BasePage):
 
 
     def is_offer_table_visible(self):
+        self.logger.info("Checking if offer table is visible")
         return self.element_displayed(self.OFFER_TABLE)
 
     def is_table_data_present(self):
+        self.logger.info("Checking if table data is present")
         self.wait_for_non_empty_text(self.FIRST_CELL)
-        return self.driver.find_element(*self.FIRST_CELL).text
+        data = self.driver.find_element(*self.FIRST_CELL).text
+        self.logger.info(f"Table data present: {data}")
+        return data
 
     def select_table_count(self,count):
+        self.logger.info(f"Selecting table count: {count}")
         element = self.driver.find_element(*self.TABLE_DROPDOWN)
         s = Select(element)
         s.select_by_visible_text(count)
+        self.logger.debug(f"Table count {count} selected successfully")
 
     def select_country(self):
+        self.logger.info(f"Selecting country: {Constant.CREATE_OFFER_COUNTRY}")
         self.do_click(self.COUNTRY_DROPDOWN)
         countries = self.driver.find_elements(*self.ALL_COUNTRY_OPTION)
         for country in countries:
             if country.text == Constant.CREATE_OFFER_COUNTRY:
                 country.click()
+                self.logger.info(f"Country {Constant.CREATE_OFFER_COUNTRY} selected successfully")
                 break
 
     def select_offer_start_date(self):
+        self.logger.info(f"Selecting offer start date: {Constant.CREATE_OFFER_START_DATE}")
         self.do_click(self.OFFER_START_DATE)
         dates = self.driver.find_elements(*self.CURRENT_MONTH_DATES)
         for date in dates:
             if int(date.text) == Constant.CREATE_OFFER_START_DATE:
                 date.click()
+                self.logger.info(f"Start date {Constant.CREATE_OFFER_START_DATE} selected")
                 break
 
     def select_offer_end_date(self):
+        self.logger.info(f"Selecting offer end date: {Constant.CREATE_OFFER_END_DATE}")
         self.do_click(self.OFFER_END_DATE)
         dates = self.driver.find_elements(*self.CURRENT_MONTH_DATES)
         for date in dates:
             if int(date.text) == Constant.CREATE_OFFER_END_DATE:
                 date.click()
+                self.logger.info(f"End date {Constant.CREATE_OFFER_END_DATE} selected")
                 break
 
     def select_offer_visibility(self):
+        self.logger.info(f"Selecting offer visibility: {Constant.OFFER_VISIBILITY}")
         if Constant.OFFER_VISIBILITY.lower() == "public":
             self.do_click(self.OFFER_VISIBILITY_PUBLIC)
         elif Constant.OFFER_VISIBILITY.lower() == "private":
             self.do_click(self.OFFER_VISIBILITY_PRIVATE)
         else:
+            self.logger.error(f"Invalid offer visibility: {Constant.OFFER_VISIBILITY}")
             raise ValueError("Invalid offer visibility option, please select a valid option")
+        self.logger.info(f"Offer visibility {Constant.OFFER_VISIBILITY} selected")
 
     def select_conversion_type(self):
+        self.logger.info(f"Selecting conversion type: {Constant.CONVERSION_TYPE}")
         if Constant.CONVERSION_TYPE.lower() == "static":
             self.do_click(self.CONVERSION_TYPE_STATIC)
         elif Constant.CONVERSION_TYPE.lower() == "dynamic":
             self.do_click(self.CONVERSION_TYPE_DYNAMIC)
         else:
+            self.logger.error(f"Invalid conversion type: {Constant.CONVERSION_TYPE}")
             raise ValueError("Invalid conversion type option, please select a valid option")
+        self.logger.info(f"Conversion type {Constant.CONVERSION_TYPE} selected")
 
     def select_conversion_method(self):
+        self.logger.info(f"Selecting conversion method: {Constant.CONVERSION_METHOD}")
         self.do_click(self.CONVERSION_METHOD)
         conversion = self.driver.find_elements(*self.ALL_CONVERSION_DROPDOWN)
         for c in conversion:
             if c.text == Constant.CONVERSION_METHOD:
                 c.click()
+                self.logger.info(f"Conversion method {Constant.CONVERSION_METHOD} selected")
                 break
 
     def select_call_timer_start(self):
@@ -154,7 +174,10 @@ class Offer(BasePage):
             raise ValueError("Invalid duplicate timeframe option, please select a valid option")
 
     def get_offer_name_list(self):
-        return self.get_elements_text_as_list(self.OFFER_NAME_COLUMN)
+        self.logger.info("Getting offer name list")
+        offer_list = self.get_elements_text_as_list(self.OFFER_NAME_COLUMN)
+        self.logger.info(f"Found {len(offer_list)} offers")
+        return offer_list
 
     def edit_country(self):
         self.do_click(self.COUNTRY_DROPDOWN)
@@ -235,4 +258,5 @@ class Offer(BasePage):
             raise ValueError("Invalid duplicate timeframe option, please select a valid option")
 
     def get_all_pages_as_dataframe(self):
+        self.logger.info("Extracting all offer pages as dataframe")
         return self.extract_all_pages_as_dataframe(self.TABLE, self.TABLE_NEXT_BUTTON, exclude_last_n=2)

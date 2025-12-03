@@ -9,8 +9,12 @@ class AdvertiserDestination(BasePage):
     FIRST_CELL = (By.XPATH, "//tr[1]//td[2]")
 
     def is_destination_table_visible(self):
+        self.logger.info("Checking if destination table is visible")
         return self.element_displayed(self.DESTINATION_TABLE)
 
     def is_table_data_present(self):
+        self.logger.info("Checking if destination table data is present")
         self.wait_for_non_empty_text(self.FIRST_CELL)
-        return self.driver.find_element(*self.FIRST_CELL).text
+        data = self.driver.find_element(*self.FIRST_CELL).text
+        self.logger.info(f"Destination table data present: {data}")
+        return data
