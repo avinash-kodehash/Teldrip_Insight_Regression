@@ -2,8 +2,11 @@ class Constant:
 
     #LOGIN
     USERNAME = "meghna.c@kodehash.com"
+    Dev_username ="demoaccount@yopmail.com"
     PASSWORD = "KODEhash@000"
     BASE_URL = "https://app.teldrip.com/login"
+    dev_url ="https://devapp.teldrip.com/login"
+    otp ='666666'
     DATE_RANGE = "last month"
     BASE_API_URL = "https://admin.teldrip.com/"
 

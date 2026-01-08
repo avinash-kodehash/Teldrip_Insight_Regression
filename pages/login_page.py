@@ -8,16 +8,23 @@ class LoginPage(BasePage):
     EMAIL = (By.XPATH,"//input[@placeholder='Enter Your Email ID']")
     PASSWORD = (By.XPATH,"//input[@placeholder='Enter Password']")
     LOGIN_BUTTON = (By.XPATH,"//button[normalize-space()='Login']")
+    OTP_BUTTON=(By.XPATH,"//input[@class ='otp_input text-black']")
+    VERIFY_BUTTON =(By.XPATH,"//button[@type='button']")
+    TRUSTED_DEVICE_BUTTON =(By.XPATH,"(//button[@type ='button'])[5]")
+
     EMPTY_EMAIL_ERR_MSG = (By.CSS_SELECTOR, ".MuiTypography-root.MuiTypography-body1.css-1r94qnl")
     EMPTY_PASS_ERR_MSG = (By.CSS_SELECTOR, ".MuiTypography-root.MuiTypography-body1.css-1r94qnl'")
 
     def __init__(self, driver):
         super().__init__(driver)
 
-    def do_login(self,username,password):
+    def do_login(self,username,password,otp):
         self.fill(self.EMAIL,username)
         self.fill(self.PASSWORD,password)
         self.do_click(self.LOGIN_BUTTON)
+        self.fill(self.OTP_BUTTON,otp)
+        self.do_click(self.VERIFY_BUTTON)
+        self.do_click(self.TRUSTED_DEVICE_BUTTON)
 
     def is_login_successful(self):
         db = DashBoard(self.driver)
