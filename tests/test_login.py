@@ -7,7 +7,7 @@ from pages.login_page import LoginPage
 def test_login(driver):
     lp = LoginPage(driver)
     db = DashBoard(driver)
-    lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    lp.do_login(Constant.Dev_username, Constant.PASSWORD,Constant.otp)
     db.element_displayed(db.DASHBOARD_TEXT)
 
 def read_login_data():

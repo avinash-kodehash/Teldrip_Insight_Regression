@@ -12,7 +12,7 @@ def driver():
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome()
-    driver.get(Constant.BASE_URL)
+    driver.get(Constant.dev_url)
     driver.maximize_window()
     yield driver
     driver.quit()
