@@ -29,6 +29,9 @@ class User(BasePage):
     ADD_USER_MANUALLY_ADD_USER_BTN = (By.XPATH, "//button[normalize-space()='Add user']")
     ADD_USER_MANUALLY_INDUSTRY_DROPDOWN = ()
     USER_ADDED_SUCCESSFULLY_TEXT = (By.XPATH, "//p[normalize-space(text())='User Added Successfully']")
+    INVITE_USER_EMAIL = (By.XPATH, "//input[@placeholder='Enter user email']")
+    INVITE_USER_BUTTON = (By.XPATH, "//p[@aria-label='Add new user']//button[@type='button']")
+    INVITE_USER_SEND_INVITE_BUTTON = (By.XPATH, "//button[normalize-space()='Send invite']")
 
     def is_user_table_visible(self):
         self.logger.info("Checking if user table is visible")

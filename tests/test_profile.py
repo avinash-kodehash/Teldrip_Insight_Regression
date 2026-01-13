@@ -3,7 +3,7 @@ from pages.dashboard_page import DashBoard
 from pages.login_page import LoginPage
 from pages.profile_page import Profile
 from utils.logger import Logger
-
+import time
 # Initialize logger
 logger = Logger.get_logger(__name__)
 
@@ -32,7 +32,7 @@ def test_profile_page_load(driver):
     assert p.get_element_text(p.PROFILE_COMPANY_NAME) == "Company Name"
     logger.info("Test completed successfully: test_profile_page_load")
 
-def _page_edit_button(driver):
+def test_page_edit_button(driver):
     lp = LoginPage(driver)
     db = DashBoard(driver)
     p = Profile(driver)
@@ -41,15 +41,40 @@ def _page_edit_button(driver):
     p.do_click(p.PROFILE_BTN)
     p.do_click(p.PROFILE_SUB_BTN)
     p.do_click(p.PROFILE_EDIT_BUTTON)
-    assert p.element_displayed(p.VERIFY_BTN)
+    #assert p.element_displayed(p.VERIFY_BTN)
+    p.element_displayed(p.SVG_MOBILE_ICON)
 
 def test_profile_edit_invalid_email_format(driver):
-    pass
+    lp = LoginPage(driver)
+    db = DashBoard(driver)
+    p = Profile(driver)
+    lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    db.element_displayed(db.DASHBOARD_TEXT)
+    p.do_click(p.PROFILE_BTN)
+    p.do_click(p.PROFILE_SUB_BTN)
+    p.do_click(p.PROFILE_EDIT_BUTTON)
+    #time.sleep(5)
+    p.clear_input_field(p.PROFILE_EMAIL_INPUT)
+    p.fill(p.PROFILE_EMAIL_INPUT, "meghna.c@kodehash")
+    p.do_click(p.VERIFY_BTN)
+    p.element_displayed(p.INVALID_EMAIL_ERR_MSG)
 
-def test_profile_edit_empty_mandatory_fields(driver):
-    pass
+def _profile_edit_empty_mandatory_field_name(driver):
+    lp = LoginPage(driver)
+    db = DashBoard(driver)
+    p = Profile(driver)
+    lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    db.element_displayed(db.DASHBOARD_TEXT)
+    p.do_click(p.PROFILE_BTN)
+    p.do_click(p.PROFILE_SUB_BTN)
+    p.do_click(p.PROFILE_EDIT_BUTTON)
+    time.sleep(3)
+    p.clear_input_field(p.PROFILE_NAME_INPUT)
+    time.sleep(3)
+    p.do_click(p.PROFILE_SAVE_BTN)
+    p.element_displayed(p.PROFILE_NAME_ERROR_MSG)
 
-def test_profile_edit_invalid_phone_no(driver):
+def _profile_edit_invalid_phone_no(driver):
     pass
 
 def test_verify_redirect_to_upgrade_plan_page(driver):

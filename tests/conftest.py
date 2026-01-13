@@ -1,11 +1,9 @@
 import os
 import shutil
 from datetime import datetime
-
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
 from constants.constants import Constant
 from utils.logger import Logger
 
@@ -21,9 +19,8 @@ def driver(request):
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome()
-    driver.get(Constant.BASE_URL)
     driver.maximize_window()
-    
+    driver.get(Constant.BASE_URL)
     logger.info(f"WebDriver initialized successfully for test: {test_name}")
     logger.info(f"Navigated to URL: {Constant.BASE_URL}")
     

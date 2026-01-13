@@ -4,9 +4,13 @@ from datetime import datetime
 class Constant:
 
     #LOGIN
-    USERNAME = "meghna.c@kodehash.com"
+    USERNAME = "hariom.d@kodehash.com"
     PASSWORD = "KODEhash@000"
-    BASE_URL = "https://app.teldrip.com/login"
+    # USERNAME = "demoaccount@yopmail.com"
+    # PASSWORD = "KODEhash@000"
+    # USERNAME = "meghna.c@kodehash.com"
+    # PASSWORD = "KODEhash@000"
+    BASE_URL = "https://devapp.teldrip.com/login"
     DATE_RANGE = "last month"
     BASE_API_URL = "https://admin.teldrip.com/"
 

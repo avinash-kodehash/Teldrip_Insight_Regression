@@ -3,10 +3,12 @@ from pages.dashboard_page import DashBoard
 from pages.login_page import LoginPage
 from pages.user_page import User
 from utils.logger import Logger
-from utils.temp_email_helper import TempEmailHelper
 from faker import Faker
+from utils.temp_mail_helper import TempMailHelper
+import requests
+
 faker = Faker()
-# Initialize logger
+
 logger = Logger.get_logger(__name__)
 
 def test_user_table_visibility(driver):
@@ -33,7 +35,7 @@ def test_user_table_visibility(driver):
 def test_add_user_manually(driver):
     first_name = faker.first_name()
     last_name = faker.last_name()
-    email = faker.email(domain="yopmail.com")
+    email = f"{first_name}.{last_name}@yopmail.com"
     company = faker.company()
     company_address = faker.address()
     company_website = faker.url()
@@ -63,10 +65,60 @@ def test_add_user_manually(driver):
     u.do_click(u.ADD_USER_MANUALLY_ADD_USER_BTN)
     assert u.element_displayed(u.USER_ADDED_SUCCESSFULLY_TEXT), "User added successfully text not displayed"
     logger.info("Test completed successfully: test_add_user_manually")
+def test_invite_users(driver):
+    first_name = faker.first_name()
+    last_name = faker.last_name()
+    company = faker.company()
+    company_address = faker.address()
+    company_website = faker.url()
+    temp_mail_helper = TempMailHelper()
+    email_address = temp_mail_helper.create_email_account()
+    logger.info("Starting test: test_invite_users")
+    lp = LoginPage(driver)
+    db = DashBoard(driver)
+    u = User(driver)
+    logger.info("Step 1: Performing login")
+    lp.do_login(Constant.USERNAME, Constant.PASSWORD)
+    logger.info("Step 2: Verifying dashboard is displayed")
+    db.element_displayed(db.DASHBOARD_TEXT)
+    db.do_click(db.USER_TAB)
+    u.do_click(u.INVITE_USER_BUTTON)
+    u.fill(u.INVITE_USER_EMAIL, email_address)
+    u.do_click(u.ADD_USER_MANUALLY_SELECT_ROLE)
+    u.select_role()
+    #time.sleep(5)
+    u.do_click(u.INVITE_USER_SEND_INVITE_BUTTON)
+    token = temp_mail_helper.wait_for_email()
+    logger.info(f"Token:{token}")
+    response_register = requests.get(f"https://devadmin.teldrip.com/api/register?token={token}")
+    logger.info(f"Response:{response_register.json()}")
+    id = response_register.json()["id"]
+    logger.info(f"ID:{id}")
+    assert response_register.status_code == 200, "Failed to register user"
+    payload_set_new_password = {
+    "email": email_address,
+    "password": "Test@123",
+    "token": token
+}
+    response_set_new_password = requests.post("https://devadmin.teldrip.com/api/set-new-password", json=payload_set_new_password)
+    assert response_set_new_password.status_code == 200, "Failed to set new password"
+    payload_signupform = {
+    "id": id,
+    "email": email_address,
+    "first_name": first_name,
+    "last_name": last_name,
+    "phone_no": "+12025550123",
+    "terms_and_conditions": True,
+    "company": {
+        "name": company,
+        "website": company_website,
+        "address": company_address,
+        "company_size": None,
+        "timezone": "UTC",
+        "industry": None
+    }
+}
 
-def _tempmail():
-    logger.info("Starting test: test_tempmail")
-    temp_email = TempEmailHelper()
-    temp_email.create_account()
-    logger.info("Test completed successfully: test_tempmail")
-    logger
+    response_signupform = requests.post("https://devadmin.teldrip.com/api/signupform", json=payload_signupform)
+    assert response_signupform.status_code == 201, "Failed to signup form"
+    logger.info("Test completed successfully: test_invite_users")

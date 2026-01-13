@@ -21,6 +21,15 @@ class BasePage:
             self.logger.error(f"Failed to click element: {by_locator}. Error: {str(e)}")
             raise
 
+    def clear_input_field(self,by_locator):
+        try:
+            self.logger.info(f"Clearing input field: {by_locator}")
+            WebDriverWait(self.driver,10).until(EC.presence_of_element_located(by_locator)).clear()
+            self.logger.debug(f"Successfully cleared input field: {by_locator}")
+        except Exception as e:
+            self.logger.error(f"Failed to clear input field: {by_locator}. Error: {str(e)}")
+            raise
+
     def fill(self,by_locator,text):
         try:
             self.logger.info(f"Filling element: {by_locator} with text: {'*' * len(str(text)) if 'password' in str(by_locator).lower() else text}")

@@ -28,3 +28,4 @@ def test_visibility_of_advertiser_table(driver):
     #time.sleep(4)
     assert isinstance(a.is_table_data_present(), str),"Table data not present"
     logger.info("Test completed successfully: test_visibility_of_advertiser_table")
+
