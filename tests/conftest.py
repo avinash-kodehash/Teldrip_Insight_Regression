@@ -19,6 +19,10 @@ def driver(request):
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome()
+<<<<<<< HEAD
+=======
+    driver.get(Constant.dev_url)
+>>>>>>> a46f056ad2b9490d891774c6775c04ab05c741b0
     driver.maximize_window()
     driver.get(Constant.BASE_URL)
     logger.info(f"WebDriver initialized successfully for test: {test_name}")
