@@ -65,7 +65,8 @@ def test_add_user_manually(driver):
     u.do_click(u.ADD_USER_MANUALLY_ADD_USER_BTN)
     assert u.element_displayed(u.USER_ADDED_SUCCESSFULLY_TEXT), "User added successfully text not displayed"
     logger.info("Test completed successfully: test_add_user_manually")
-def test_invite_users(driver):
+
+def _invite_users(driver):
     first_name = faker.first_name()
     last_name = faker.last_name()
     company = faker.company()

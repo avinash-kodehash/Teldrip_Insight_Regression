@@ -3,14 +3,24 @@ from datetime import datetime
 
 class Constant:
 
-    #LOGIN
-    USERNAME = "hariom.d@kodehash.com"
-    PASSWORD = "KODEhash@000"
-    # USERNAME = "demoaccount@yopmail.com"
-    # PASSWORD = "KODEhash@000"
-    # USERNAME = "meghna.c@kodehash.com"
-    # PASSWORD = "KODEhash@000"
-    BASE_URL = "https://devapp.teldrip.com/login"
+    Environment = "dev"   #dev or prod
+
+    DEV_URL = "https://devapp.teldrip.com/login"
+    PROD_URL = "https://app.teldrip.com/login"
+
+    # Dev credentials (used when Environment == "dev")
+    DEV_USERNAME = "avinash.k@kodehash.com"
+    DEV_PASSWORD = "KODEhash@000"
+
+    # Prod credentials (used when Environment == "prod")
+    PROD_USERNAME = "meghna.c@kodehash.com"
+    PROD_PASSWORD = "KODEhash@000"
+
+    # Active credentials (set based on Environment; can be overridden in conftest)
+    USERNAME = DEV_USERNAME if Environment == "dev" else PROD_USERNAME
+    PASSWORD = DEV_PASSWORD if Environment == "dev" else PROD_PASSWORD
+   
+    BASE_URL = DEV_URL if Environment == "dev" else PROD_URL
 
     DATE_RANGE = "last month"
     BASE_API_URL = "https://admin.teldrip.com/"

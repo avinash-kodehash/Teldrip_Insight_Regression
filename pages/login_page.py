@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 from pages.dashboard_page import DashBoard
-
+from constants.constants import Constant
 
 class LoginPage(BasePage):
 
@@ -27,19 +27,29 @@ class LoginPage(BasePage):
         super().__init__(driver)
 
     def do_login(self,username,password):
-        self.logger.info(f"Performing login with username: {username}")
-        self.fill(self.EMAIL,username)
-        self.fill(self.PASSWORD,password)
-        self.do_click(self.LOGIN_BUTTON)
-        self.fill(self.OTP_INPUT_1, "6")
-        self.fill(self.OTP_INPUT_2, "6")
-        self.fill(self.OTP_INPUT_3, "6")
-        self.fill(self.OTP_INPUT_4, "6")
-        self.fill(self.OTP_INPUT_5, "6")
-        self.fill(self.OTP_INPUT_6, "6")
-        self.do_click(self.VERIFY_OTP_BUTTON)
-        self.do_click(self.BTN_TRUST_DEVICE)
-        self.logger.info("Login credentials submitted successfully")
+        if Constant.Environment == "dev":
+            self.logger.info(f"Performing login with username: {username}")
+            self.fill(self.EMAIL,username)
+            self.fill(self.PASSWORD,password)
+            self.do_click(self.LOGIN_BUTTON)
+            self.fill(self.OTP_INPUT_1, "6")
+            self.fill(self.OTP_INPUT_2, "6")
+            self.fill(self.OTP_INPUT_3, "6")
+            self.fill(self.OTP_INPUT_4, "6")
+            self.fill(self.OTP_INPUT_5, "6")
+            self.fill(self.OTP_INPUT_6, "6")
+            self.do_click(self.VERIFY_OTP_BUTTON)
+            self.do_click(self.BTN_TRUST_DEVICE)
+            self.logger.info("Login credentials submitted successfully")
+        elif Constant.Environment == "prod":
+            self.logger.info(f"Performing login with username: {username}")
+            self.fill(self.EMAIL,username)
+            self.fill(self.PASSWORD,password)
+            self.do_click(self.LOGIN_BUTTON)
+            self.logger.info("Login credentials submitted successfully")
+        else:
+            self.logger.error(f"Invalid environment: {Constant.Environment}")
+            raise ValueError(f"Invalid environment: {Constant.Environment}")
 
     def is_login_successful(self):
         self.logger.info("Checking if login was successful")

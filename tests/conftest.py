@@ -7,8 +7,34 @@ from selenium.webdriver.chrome.options import Options
 from constants.constants import Constant
 from utils.logger import Logger
 
+"""
+Global configuration and fixtures for pytest.
+
+Supports a custom CLI option:
+    --env=dev|prod
+
+Example:
+    pytest --env=dev
+    pytest --env=prod
+"""
+
 # Initialize logger for conftest
 logger = Logger.get_logger("ConfTest")
+
+
+def pytest_addoption(parser):
+    """
+    Add custom command line options to pytest.
+
+    --env: Target environment to run tests against (dev or prod).
+    """
+    parser.addoption(
+        "--env",
+        action="store",
+        default="prod",
+        choices=["dev", "prod"],
+        help="Environment to run tests against: dev or prod (default: prod)",
+    )
 
 @pytest.fixture(scope="function")
 def driver(request):
@@ -19,10 +45,6 @@ def driver(request):
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome()
-<<<<<<< HEAD
-=======
-    driver.get(Constant.dev_url)
->>>>>>> a46f056ad2b9490d891774c6775c04ab05c741b0
     driver.maximize_window()
     driver.get(Constant.BASE_URL)
     logger.info(f"WebDriver initialized successfully for test: {test_name}")
@@ -82,6 +104,23 @@ def pytest_configure(config):
     Called before test session starts
     Clean up old logs and setup logging
     """
+    # Read environment from CLI option and configure constants
+    env = config.getoption("--env")
+    Constant.Environment = env
+    Constant.BASE_URL = Constant.DEV_URL if env == "dev" else Constant.PROD_URL
+
+    # Configure credentials based on environment
+    if env == "dev":
+        Constant.USERNAME = Constant.DEV_USERNAME
+        Constant.PASSWORD = Constant.DEV_PASSWORD
+    else:
+        Constant.USERNAME = Constant.PROD_USERNAME
+        Constant.PASSWORD = Constant.PROD_PASSWORD
+
+    logger.info(f"Test environment set to: {Constant.Environment}")
+    logger.info(f"Base URL configured as: {Constant.BASE_URL}")
+    logger.info(f"Username configured as: {Constant.USERNAME}")
+
     logger.info("=" * 100)
     logger.info("TEST SESSION STARTING")
     logger.info(f"Session started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
